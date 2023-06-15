@@ -27,7 +27,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 25px;
+    padding: 10px;
     align-items: center;
 }
 
@@ -49,6 +49,12 @@ a {
 .menu a:hover {
     color: #000000;
     background-color: rgb(202, 243, 140);
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+
 }
 
 /*Dropdown menu */
@@ -77,6 +83,11 @@ a {
 @media screen and (max-width: 730px) {
     .menu {
         padding: 1.5rem;
+    }
+
+    .logo {
+        width: 250px;
+        height: 80px;
     }
 
     .menu-itens-mb:hover {
