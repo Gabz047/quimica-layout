@@ -80,6 +80,8 @@ a {
     display: none;
 }
 
+/*Index - css - inicio*/
+
 .background-index {
     display: grid;
     grid-template-columns: 400px 1fr;
@@ -142,24 +144,36 @@ a {
     height: 100%;
     grid-column: 1;
     grid-row: 2 /span 5;
-    background-color: #1d1e20;
+    background-color: #dbdbdb;
     border-radius: 20px;
 }
 
 .questions-I li {
     display: flex;
-    color: #000000;
     list-style: none;
     padding: 5px;
     flex-direction: column;
     margin-top: 20px;
     height: auto;
- 
+    font-size: 10px;
+
 }
 
-.questions-I button {
-    
+p#answer {
+    display: none;
 }
+
+.questions-itens {
+    display: flex;
+    color: #000000;
+    background-color: #6be79b;
+
+}
+
+.questions-itens:hover {
+    background-color: rgb(0, 253, 42);
+}
+
 
 .footer-I {
     background-color: #000000;
@@ -173,6 +187,216 @@ a {
     width: 100%;
     height: 100%;
     border-radius: 40px;
+}
+
+/*Index - css - fim*/
+/* Tabela - css - início */
+.background-Table {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 680px 30px 350px 50px 120px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 233, 233)
+}
+
+.Table-Tb {
+    background-color: #464646;
+    grid-row: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.Mural-Tb {
+    background-color: #464646;
+    grid-row: 4;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-Tb {
+    background-color: #464646;
+    grid-row: 6;
+    height: 100%;
+    width: 100%;
+}
+
+/* Tabela - css - fim */
+/* Ligações quimicas - css - inicio */
+
+.background-Lq {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 600px 600px 120px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 233, 233)
+}
+
+.ligacoesmetalicas {
+    display: flex;
+    justify-content: space-between;
+    background-color: #464646;
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.textoLM {
+    background-color: #e42020;
+    grid-row: 1;
+    height: 500px;
+    width: 900px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.imagemLM {
+    background-color: #20e44a;
+    grid-row: 1;
+    height: 500px;
+    width: 600px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.ligacoesionicas {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1919;
+    grid-row: 2;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.textoLI {
+    background-color: #37e420;
+    height: 500px;
+    width: 600px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.imagemLI {
+    background-color: #f14814;
+    height: 500px;
+    width: 900px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.ligacoescovalentes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a1a1a1;
+    grid-row: 3;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.textoCT {
+    background-color: #e42020;
+    height: 500px;
+    width: 900px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.imagemCT {
+    background-color: #20e44a;
+    height: 500px;
+    width: 600px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.footer-Lq {
+    background-color: #464646;
+    grid-row: 4;
+    height: 100%;
+    width: 100%;
+}
+/* Ligações quimicas - css - fim */
+
+.background-SBQ {
+    display: grid;
+    grid-template-columns: 1fr 700px 1fr;
+    grid-template-rows: 50px 120px 50px 450px 50px 550px 50px 400px 50px 120px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 233, 233)
+}
+
+.tittle-SBQ {
+    width: 98%;
+    height:100%;
+    grid-column: 1 /span 3;
+    grid-row: 2;
+    text-align: center;
+}
+
+.tittle-SBQ  h1{
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    text-align: center;
+}
+
+.tittle-SBQ  h2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+}
+
+.content1 {
+    background-color: #000000;
+    grid-column: 1 /span 2;
+    grid-row: 4;
+    margin-left: 10px;
+
+}
+
+.img1-SBQ {
+    background-color: #b44343;
+    grid-column: 3 /span 4;
+    grid-row: 4;
+    margin-right: 10px;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.content2 {
+    background-color: #000000;
+    grid-column: 1 /span 2;
+    grid-row: 6;
+    margin-left: 10px;
+
+}
+
+.artigos-SBQ {
+    background-color: #a070ec;
+    grid-column: 3 /span 4;
+    grid-row: 6; 
+    margin-right: 14px;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.img2-SBQ {
+    background-color: #000000;
+    grid-column: 1 /span 4;
+    grid-row: 8;
+    margin-left: 10px; 
+}
+
+.footer-SBQ {
+    background-color: #464646;
+    grid-column: 1 /span 4;
+    grid-row: 10;
+    height: 100%;
+    width: 100%;
 }
 
 
