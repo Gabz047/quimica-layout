@@ -85,7 +85,7 @@ a {
 .background-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 250px 30px 100px 300px 50px 450px 120px;
+    grid-template-rows: 100px 250px 30px 100px 300px 50px 450px 30px 950px 30px 1000px 30px 700px 30px 120px;
     width: 100%;    
     height: 100%;
 }
@@ -144,9 +144,110 @@ a {
     width: 90%;
 }
 
+.content-box-athom {
+    display: grid;
+    background-color: #e48820;
+    grid-column: 1 /span 3;
+    grid-row: 9;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 500px 20px 300px 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.text-1-athom {
+    background-color: #b96fff;
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.text-1-athom p{
+  font-size: 35px;
+}
+
+.text-2-athom {
+    background-color: #b96fff;
+    grid-column: 1 /span 3;
+    grid-row: 4;
+    width: 97%;
+    height: 100%;
+    margin-left:10px;
+}
+
+.text-2-athom p {
+   font-size: 40px;
+}
+
+.img-athom {
+    background-color: #b96fff;
+    grid-column: 2;
+    grid-row: 2;
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.content-box-duvida {
+    display: grid;
+    background-color: #7aff75;
+    grid-column: 1 /span 3;
+    grid-row: 11;
+    grid-template-columns: 1fr 600px;
+    grid-template-rows: 40px 200px 500px 200px 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.video-duvida {
+    background-color: aqua;
+    grid-column: 1;
+    grid-row: 3;
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.box-duvidas {
+    background-color: aquamarine;
+    grid-column: 2;
+    grid-row: 2 /span 4;
+    width: 86%;
+    margin: 0px auto;
+}
+
+.content-box-qmsomos {
+    display: grid;
+    background-color: #fd90cc;
+    grid-column: 1 /span 3;
+    grid-row: 13;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px 500px 50px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.box-qmsomos {
+    background-color:rgb(202, 243, 140);
+    grid-column: 1;
+    grid-row: 2 /span 3;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.box-rdsociais {
+    background-color: #a070ec;
+    grid-column: 2;
+    grid-row: 3;
+    width: 95%;
+    margin: 0px auto;
+}
+
 .footer-I {
     background-color: #a070ec;
-    grid-row: 8;
+    grid-row:15;
     grid-column: 1 /span 4;
 }
 
