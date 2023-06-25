@@ -96,7 +96,7 @@ a {
 .background-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 250px 30px 100px 300px 50px 450px 30px 950px 30px 1000px 30px 700px 30px 120px;
+    grid-template-rows: 100px 250px 30px 400px 100px 50px 450px 30px 1000px 30px 700px 30px 120px;
     width: 100%;    
     height: 100%;
 }
@@ -125,22 +125,21 @@ a {
 
 .content-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 450px 70px 230px;
-    background: rgba(19, 19, 19, 0.85);
-    grid-row: 3 /span 5;
     grid-column: 1 /span 3;
-    height: 100%;
-    width: 100%;
-    margin: 0px auto;
+    grid-row: 3 /span 5;
+    background-color: #121312;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr;
 }
 
 .img-container-I {
-    grid-row: 2;
-    grid-column: 2;
+    grid-row: 2 /span 3;
+    grid-column: 2 /span 3;
     width: 70%;
     margin: 0px auto;
-    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80%;
 }
 
 .img-container-I img{
@@ -149,10 +148,7 @@ a {
  visibility: hidden;
 }
 
-.imgref1 {
-    grid-column: 2;
-    grid-row: 3;
-    margin: 0 auto;
+.img-container-I .imgref1 {
     color: #a2f3b3;
     text-shadow: 0 0 0.125em #81fc9b, 0 0 0.25em currentColor;
    
@@ -160,21 +156,26 @@ a {
 
 .description-I {
     grid-column: 1;
-    grid-row: 2;
+    grid-row:  2 /span 3;
     margin-left: 60px;
     visibility: hidden;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .description-I h4 {
     color: rgb(219, 219, 219);
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 30px;
+    margin-top: 40px;
 }
 
 .description2-I {
     grid-column: 1 /span 3;
-    grid-row: 4 ;
+    grid-row: 5 /span 6;
     margin-left: 60px;
+    height: 70%;
     width: 90%;
     visibility: hidden;
 }
@@ -182,73 +183,14 @@ a {
 .description2-I h4 {
     color: rgb(219, 219, 219);
     margin-left: 20px;
-    font-size: 25px;
-}
-
-.content-box-athom {
-    display: grid;
-    background: #1d1e20;
-    grid-column: 1 /span 3;
-    grid-row: 9;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 450px 300px 100px;
-    width: 100%;
-    height: 100%;
-}
-
-.text-1-athom {
-    grid-column: 1 /span 2;
-    grid-row: 2;
-    width: 90%;
-    height: 100%;
-    visibility: hidden;
-    margin-right: auto;
-    margin-left: 10px;
-}
-
-.text-1-athom h4 {
-    margin-left: 10px;
-    font-size: 35px;
-    color: #81fc9b;
-}
-
-.text-2-athom {
-    grid-column: 1 /span 2;
-    grid-row: 3;
-    width: 90%;
-    height: 100%;
-    margin-right:10px;
-    visibility: hidden;
-    margin-right: auto;
-    margin-left: 10px;
-}
-
-.text-2-athom h4 {
-   margin-left: 10px;
-   font-size: 35px;
-   color: #81fc9b;
-}
-
-.img-athom {
-    grid-column: 3;
-    grid-row: 2 /span 3;
-    width: 100%;
-    height: 70%;
-    margin: auto;
-    margin-right: 40px;
-    visibility: hidden;
-}
-
-.img-athom img{
- height: 100%;
- width: 100%;
+    font-size: 30px;
 }
 
 .content-box-duvida {
     display: grid;
-    background-color: #7aff75;
+    background-color: #121312;
     grid-column: 1 /span 3;
-    grid-row: 11;
+    grid-row: 9;
     grid-template-columns: 1fr 600px;
     grid-template-rows: 40px 200px 500px 200px 30px;
     width: 100%;
@@ -256,17 +198,46 @@ a {
 }
 
 .video-duvida {
-    background-color: aqua;
     grid-column: 1;
-    grid-row: 3;
-    width: 80%;
-    height: 100%;
-    margin: 0px auto;
+    grid-row: 2 /span 4;
+    width: 95%;
+    height: 74%;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     visibility: hidden;
 }
 
+.ref1video {
+    grid-row: 2;
+    grid-column: 1;
+    width: 100%;
+    color: rgb(219, 219, 219);   
+    margin-top: 20px;
+    margin-left: 42px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.ref1video a{
+    color: #a2f3b3;
+    text-shadow: 0 0 0.125em #81fc9b, 0 0 0.25em currentColor;
+}
+
+.ref1video a:hover{
+    color: #767ef5;
+    text-shadow: 0 0 0.125em #7173f3, 0 0 0.25em currentColor;
+}
+
+.video-duvida video {
+    width: 100%;
+    height: 100%;
+}
+
 .box-duvidas {
-    background-color: aquamarine;
+    background-color: rgb(143, 143, 143);
     grid-column: 2;
     grid-row: 2 /span 4;
     width: 86%;
@@ -274,29 +245,58 @@ a {
     visibility: hidden;
 }
 
+.box-duvidas section summary {
+   background-color: #74f76f;
+   padding: 4%;
+   border-bottom: 2px solid #282828;
+   font-weight: 600;
+}
+
 .content-box-qmsomos {
     display: grid;
-    background-color: #fd90cc;
+    background-color: #121312;
     grid-column: 1 /span 3;
-    grid-row: 13;
+    grid-row: 11;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 50px 500px 50px 50px;
     width: 100%;
     height: 100%;
     visibility: hidden;
+    color: rgb(219, 219, 219)
 }
 
 .box-qmsomos {
-    background-color:rgb(202, 243, 140);
     grid-column: 1;
-    grid-row: 2 /span 3;
+    grid-row: 3;
     width: 95%;
-    margin: 0px auto;
+    margin: auto;
     visibility: hidden;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 197, 95);
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgb(95, 197, 95);
+}
+
+.h1qmsomos {
+    display: block;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 25px;
+    font-size: 48px;
+    color: #81fc9b;
+    text-shadow: 0 0 0.125em #96ffad, 0 0 0.25em currentColor;
+}
+
+.box-qmsomos h4 {
+    margin-top: 1%;
+    font-size: 27px;
+    padding: 2%;
 }
 
 .box-rdsociais {
-    background-color: #a070ec;
+    display: flex;
+    flex-wrap: wrap;
     grid-column: 2;
     grid-row: 3;
     width: 95%;
@@ -304,9 +304,86 @@ a {
     visibility: hidden;
 }
 
+.insta {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 50%;
+    text-shadow: 0 0 0.125em rgb(253, 169, 183), 0 0 0.25em currentColor;
+    color: rgb(253, 169, 183);
+}
+
+.insta i {
+    background-color: rgb(253, 220, 235);
+    border-radius: 10px;
+    font-size: 80px;
+}
+
+.insta h3 {
+    border-radius: 10px;
+    background-color: #eef0ee;
+    margin-left: 5px;
+    font-size: 60px;
+    
+}
+
+.face {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 50%;
+    text-shadow: 0 0 0.125em #3b5998, 0 0 0.25em currentColor;
+    color: #3b5998;
+}
+
+.face i {
+    background-color:#7abee9;
+    border-radius: 10px;
+    font-size: 80px;
+}
+
+.face h3 {
+    border-radius: 10px;
+    background-color: #eef0ee;
+    margin-left: 5px;
+    font-size: 60px;
+}
+
+.twitter {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 50%;
+    color: #1DA1F2;
+}
+
+.twitter i {
+    font-size: 80px;
+}
+
+.twitter h3 {
+    font-size: 60px;
+}
+
+.youtube {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 50%;
+    color: #c4302b;
+}
+
+.youtube  i {
+    font-size: 80px;
+}
+
+.youtube  h3 {
+    font-size: 60px;
+}
+
 .footer-I {
     background-color: #a070ec;
-    grid-row:15;
+    grid-row:13;
     grid-column: 1 /span 4;
 }
 
