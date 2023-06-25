@@ -96,7 +96,7 @@ a {
 .background-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 250px 30px 400px 100px 50px 450px 30px 1000px 30px 700px 30px 120px;
+    grid-template-rows: 100px 250px 30px 400px 100px 50px 450px 30px 1000px 30px 700px 30px 320px;
     width: 100%;    
     height: 100%;
 }
