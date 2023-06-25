@@ -305,25 +305,35 @@ a {
 }
 
 .insta {
+    position: relative;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
     width: 50%;
-    text-shadow: 0 0 0.125em rgb(253, 169, 183), 0 0 0.25em currentColor;
-    color: rgb(253, 169, 183);
+    text-shadow: 0 0 0.125em #282828, 0 0 0.25em currentColor;
+    color: #282828;
 }
 
 .insta i {
-    background-color: rgb(253, 220, 235);
+    background-color: #96ffad;
+    box-shadow: 0px 3px 10px rgb(95, 197, 95);
     border-radius: 10px;
     font-size: 80px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 1;
+}
+
+.insta i:hover {
+    transform: scale(1.25, 1.25);
+    margin-right: 10px;
 }
 
 .insta h3 {
     border-radius: 10px;
-    background-color: #eef0ee;
+    background-color: rgb(255, 255, 255);
     margin-left: 5px;
     font-size: 60px;
+    padding: 4px;
     
 }
 
@@ -332,21 +342,32 @@ a {
     margin-bottom: auto;
     display: flex;
     width: 50%;
-    text-shadow: 0 0 0.125em #3b5998, 0 0 0.25em currentColor;
-    color: #3b5998;
+    text-shadow: 0 0 0.125em #282828, 0 0 0.25em currentColor;
+    color: #282828;
 }
 
 .face i {
-    background-color:#7abee9;
+    position: relative;
+    background-color: #96ffad;
+    box-shadow: 0px 3px 10px rgb(95, 197, 95);
     border-radius: 10px;
     font-size: 80px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 1;
+}
+
+.face i:hover {
+    transform: scale(1.25, 1.25);
+    margin-right: 10px;
 }
 
 .face h3 {
     border-radius: 10px;
-    background-color: #eef0ee;
+    background-color: rgb(255, 255, 255);
     margin-left: 5px;
     font-size: 60px;
+    padding: 4px;
+    
 }
 
 .twitter {
@@ -354,15 +375,32 @@ a {
     margin-bottom: auto;
     display: flex;
     width: 50%;
-    color: #1DA1F2;
+    text-shadow: 0 0 0.125em #282828, 0 0 0.25em currentColor;
+    color: #282828;
 }
 
 .twitter i {
+    position: relative;
+    background-color: #96ffad;
+    box-shadow: 0px 3px 10px rgb(95, 197, 95);
+    border-radius: 10px;
     font-size: 80px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 1;
+}
+
+.twitter i:hover {
+    transform: scale(1.25, 1.25);
+    margin-right: 10px;
 }
 
 .twitter h3 {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
     font-size: 60px;
+    padding: 4px;
+    
 }
 
 .youtube {
@@ -370,15 +408,32 @@ a {
     margin-bottom: auto;
     display: flex;
     width: 50%;
-    color: #c4302b;
+    text-shadow: 0 0 0.125em #282828, 0 0 0.25em currentColor;
+    color: #282828;
 }
 
-.youtube  i {
+.youtube i {
+    position: relative;
+    background-color: #96ffad;
+    box-shadow: 0px 3px 10px rgb(95, 197, 95);
+    border-radius: 10px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     font-size: 80px;
+    z-index: 1;
 }
 
-.youtube  h3 {
+.youtube i:hover {
+    transform: scale(1.25, 1.25);
+    margin-right: 10px;
+}
+
+.youtube h3 {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
     font-size: 60px;
+    padding: 4px;
+    
 }
 
 .footer-I {
