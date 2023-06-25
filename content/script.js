@@ -23,3 +23,9 @@ sr.reveal('.box-duvidas', {duration: 1000});
 sr.reveal('.content-box-qmsomos', {duration: 1000});
 sr.reveal('.box-qmsomos', {duration: 1000});
 sr.reveal('.box-rdsociais', {duration: 1000});
+
+const btn = document.getElementById("btnup");
+
+btn.addEventListener("click", function(){
+   window.scrollTo(0, 0)
+})

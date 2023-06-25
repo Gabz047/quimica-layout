@@ -16,6 +16,10 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 .parallax {
     background-image: url(../content/imagens/fundo-colorido-hd--fundo-hd--plano-de-fundo-psd-moderno-de-alta-qualidade_275100-original.jpg);
     background-repeat: no-repeat;
@@ -96,7 +100,7 @@ a {
 .background-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 250px 30px 400px 100px 50px 450px 30px 1000px 30px 700px 30px 320px;
+    grid-template-rows: 100px 250px 30px 400px 100px 50px 450px 30px 1000px 30px 700px 50px 300px 30px;
     width: 100%;    
     height: 100%;
 }
@@ -167,7 +171,7 @@ a {
 .description-I h4 {
     color: rgb(219, 219, 219);
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 40px;
 }
 
@@ -183,7 +187,7 @@ a {
 .description2-I h4 {
     color: rgb(219, 219, 219);
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .content-box-duvida {
@@ -196,6 +200,7 @@ a {
     width: 100%;
     height: 100%;
 }
+
 
 .video-duvida {
     grid-column: 1;
@@ -237,12 +242,18 @@ a {
 }
 
 .box-duvidas {
-    background-color: rgb(143, 143, 143);
+    display: flex;
+    flex-direction: column;
     grid-column: 2;
     grid-row: 2 /span 4;
     width: 86%;
     margin: 0px auto;
     visibility: hidden;
+    justify-content: center;
+}
+.box-duvidas details {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 .box-duvidas section summary {
@@ -250,7 +261,17 @@ a {
    padding: 4%;
    border-bottom: 2px solid #282828;
    font-weight: 600;
+   border-radius: 10px;
+   margin-top: 10px;
+   transition: all 2s;
 }
+
+.box-duvidas p {
+   color: #000000;
+   font-size: 20px;
+   
+}
+
 
 .content-box-qmsomos {
     display: grid;
@@ -436,13 +457,110 @@ a {
     
 }
 
-.footer-I {
-    background-color: #a070ec;
-    grid-row:13;
+.footer-box {
     grid-column: 1 /span 4;
+    grid-row: 12 /span 13;
+    background-color: #282828;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 600px 100px 500px 100px;
+    grid-template-rows: 50px 230px 20px;
 }
 
+.footer-box-content {
+   grid-column: 1 /span 6;
+   grid-row: 2;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
 
+.logo {
+    background-color: #1c1f20;
+    border-radius: 20px;
+    width: 250px;
+    height: 100%;
+    margin-left: 0.7rem;
+}
+
+.logo img {
+ width: 100%;
+ height: 100%;
+}
+
+.coluna2 {
+    width: 100%;
+}
+
+.btn-links {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-links a {
+    display: flex;
+    background-color: rgb(123, 247, 123);
+   text-decoration: none;
+   width: 230px;
+   height: 50px;
+   font-size: 20px; 
+   color: rgb(0, 0, 0);
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0px 3px 10px rgb(123, 247, 123);
+   font-weight: 600;
+   transition: all 0.9s;
+   align-items: center;
+   justify-content: center;
+}
+
+.btn-links a:hover {
+   background-color: rgb(213, 252, 213);
+}
+
+.botaodevoltar {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    margin-right:0.2rem;
+    text-align: center;
+    align-items:end;
+    justify-content: center;
+}
+
+.botaodevoltar i {
+    font-size: 100px;
+    color: rgb(123, 247, 123); 
+    transition: all 1s;
+}
+
+.botaodevoltar i:hover {
+    color: rgb(212, 255, 212);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.direitos-box {
+    background-color: #0c0c0c;
+    width: 100%;
+    height: 30px;
+    grid-row: 14;
+    grid-column: 1 /span 4;
+    text-align: center;
+    
+}
+
+.direitos-box h3 {
+    color: rgb(252, 252, 252);
+    padding: 5px;
+    
+}
 
 /*Index - css - fim*/
 /* Tabela - css - início */
