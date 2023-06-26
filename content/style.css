@@ -21,7 +21,7 @@ html, body {
 }
 
 .parallax {
-    background-image: url(../content/imagens/fundo-colorido-hd--fundo-hd--plano-de-fundo-psd-moderno-de-alta-qualidade_275100-original.jpg);
+    background-image: url(../content/imagens/nebula-1922570_1920.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -269,7 +269,7 @@ a {
 .box-duvidas p {
    color: #000000;
    font-size: 20px;
-   
+   padding: 10px;
 }
 
 
@@ -311,8 +311,8 @@ a {
 
 .box-qmsomos h4 {
     margin-top: 1%;
-    font-size: 27px;
-    padding: 2%;
+    font-size: 35px;
+    padding: 4%;
 }
 
 .box-rdsociais {
@@ -596,102 +596,6 @@ a {
 
 /* Tabela - css - fim */
 /* Ligações quimicas - css - inicio */
-
-.background-Lq {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 600px 600px 600px 120px;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(233, 233, 233)
-}
-
-.ligacoesmetalicas {
-    display: flex;
-    justify-content: space-between;
-    background-color: #464646;
-    grid-row: 1;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-}
-
-.textoLM {
-    background-color: #e42020;
-    grid-row: 1;
-    height: 500px;
-    width: 900px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.imagemLM {
-    background-color: #20e44a;
-    grid-row: 1;
-    height: 500px;
-    width: 600px;
-    margin-right: 15px;
-    margin-top: 15px;
-}
-
-.ligacoesionicas {
-    display: flex;
-    justify-content: space-between;
-    background-color: #1a1919;
-    grid-row: 2;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-}
-
-.textoLI {
-    background-color: #37e420;
-    height: 500px;
-    width: 600px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.imagemLI {
-    background-color: #f14814;
-    height: 500px;
-    width: 900px;
-    margin-right: 15px;
-    margin-top: 15px;
-}
-
-.ligacoescovalentes {
-    display: flex;
-    justify-content: space-between;
-    background-color: #a1a1a1;
-    grid-row: 3;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-}
-
-.textoCT {
-    background-color: #e42020;
-    height: 500px;
-    width: 900px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.imagemCT {
-    background-color: #20e44a;
-    height: 500px;
-    width: 600px;
-    margin-right: 15px;
-    margin-top: 15px;
-}
-
-.footer-Lq {
-    background-color: #464646;
-    grid-row: 4;
-    height: 100%;
-    width: 100%;
-}
 /* Ligações quimicas - css - fim */
 
 .background-SBQ {
