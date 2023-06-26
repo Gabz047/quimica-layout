@@ -30,6 +30,8 @@ h4 {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.5;
+  padding-bottom: 1.5cm;
+  padding-top: 1.5cm;
 }
 
 main {
@@ -52,6 +54,7 @@ main {
     margin-top: 30px;
     width: 21cm;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 
