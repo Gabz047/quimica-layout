@@ -69,13 +69,8 @@ p#referenciasP::first-letter {
 
 p#referenciasP {
     line-height: 1;
+    text-align: left;
   }
-
-a#referenciasA {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(93, 93, 255);
-}
-
 .footer-box {
     background-color: #282828;
     height: 300px;
