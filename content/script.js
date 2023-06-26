@@ -24,8 +24,8 @@ sr.reveal('.content-box-qmsomos', {duration: 1000});
 sr.reveal('.box-qmsomos', {duration: 1000});
 sr.reveal('.box-rdsociais', {duration: 1000});
 
-const btn = document.getElementById("btnup");
+const btnUP = document.getElementById("btnup");
 
-btn.addEventListener("click", function(){
+btnUP.addEventListener("click", function(){
    window.scrollTo(0, 0)
 })
