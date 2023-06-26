@@ -114,18 +114,13 @@ a {
 }
 
 .tittle-container-I h1 {
-    color: rgb(190, 255, 153);
-    text-shadow: 0 0 0.125em rgb(221, 255, 201), 0 0 0.25em currentColor;
-    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.125em rgba(136, 248, 155, 0.37), 0 0 0.25em currentColor;
+    font-size: 100px;
+    letter-spacing: 10px;
     text-align: center;
 }
 
-.tittle-container-I h2 {
-    color: rgb(190, 255, 153);
-    text-shadow: 0 0 0.125em rgb(221, 255, 201), 0 0 0.25em currentColor;
-    font-size: 20px;
-    text-align: center;
-}
 
 .content-box {
     display: grid;

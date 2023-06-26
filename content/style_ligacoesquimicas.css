@@ -10,6 +10,10 @@ body {
     flex-direction:column;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 h1 {
     text-align: center;
 }
@@ -37,14 +41,6 @@ main {
     padding: 20px;
 }
 
-
-.folha {
-    margin-top: 30px;
-    height: 29.7cm;
-    width: 21cm;
-    margin-bottom: 30px;
-}
-
 .conteudo {
     background-color: rgb(231, 230, 230);
     max-width: 1000px;
@@ -53,6 +49,9 @@ main {
     padding-bottom: 2cm;
     padding-left: 3cm;
     padding-right: 2cm;
+    margin-top: 30px;
+    width: 21cm;
+    margin-bottom: 30px;
 }
 
 
@@ -78,7 +77,6 @@ a#referenciasA {
     background-color: #282828;
     height: 300px;
     width: 100%;
-    margin-top: 1600px;
     display: grid;
     grid-template-columns: 400px 600px 100px 500px 100px;
     grid-template-rows: 50px 230px 20px;
