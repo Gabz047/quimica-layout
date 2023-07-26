@@ -21,7 +21,7 @@ html, body {
 }
 
 .parallax {
-    background-image: url(../content/imagens/nebula-1922570_1920.png);
+    background-image: url(../imagens/nebula-1922570_1920.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -519,8 +519,9 @@ a {
    background-color: rgb(213, 252, 213);
 }
 
-.botaodevoltar {
+.btnVoltar {
     display: flex;
+   border-radius: 50%;
     width: 200px;
     height: 100%;
     margin-right:0.2rem;
@@ -529,13 +530,14 @@ a {
     justify-content: center;
 }
 
-.botaodevoltar i {
-    font-size: 100px;
-    color: rgb(123, 247, 123); 
-    transition: all 1s;
+.btnVoltar i {
+    font-size: 50px;
+    transition: 1s ease;
+    background-color: rgb(71, 163, 71);
+    border-radius: 50%;
 }
 
-.botaodevoltar i:hover {
+.btnVoltar i:hover {
     color: rgb(212, 255, 212);
     margin-bottom: 20px;
     cursor: pointer;

@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Untitled-4.png" type="image/x-icon">
-    <link rel="stylesheet" href="style_ligacoesquimicas.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="shortcut icon" href="../imagens/Untitled-4.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/style_ligacoesquimicas.css">
+    <script src="../backend/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,10 +17,11 @@
 </head>
 
 <body>
+    <section id="paracima"></section>
     <header class="cabecalho">
         <div class="logo">
-            <a href="index.html">
-                <img src="definitvo2.0.png" height="100%" width="100%">
+            <a href="../content/index.html">
+                <img src="../imagens/definitvo2.0.png" height="100%" width="100%">
             </a>
         </div>
         <nav class="menu">
@@ -31,7 +32,7 @@
                 <li><a href="sambaqui.html" class="menu-links">Sambaqui</a></li>
             </ul>
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg"></button>
+                <button onclick="menuShow()"><img class="icon" src="../imagens/menu_white_36dp.svg"></button>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -158,16 +159,16 @@
     </div>
     <footer class="footer-box">
         <div class="footer-box-content">
-            <div class="logo"><img src="Untitled-4.png" alt=""></div>
+            <div class="logo"><img src="../imagens/Untitled-4.png" alt=""></div>
             <div class="btn-links">
                 <a href="ligacoesquimicas.html">Ligações Químicas</a>
                 <a href="tabelaperiodica.html">Tabela Periódica</a>
                 <a href="Materialpedagogico.html">Material Pedagógico</a>
                 <a href="sambaqui.html">Sambaqui</a>
             </div>
-            <div class="botaodevoltar" id="btnup">
-                <i class='bx bxs-up-arrow-circle'></i>
-            </div>
+            <div class="btnVoltar">
+                <a href="#paracima" id="botaodevoltar"><i class='bx bx-up-arrow-alt'></i></a>
+            </div> 
         </div>
     </footer>
     <div class="direitos-box">
