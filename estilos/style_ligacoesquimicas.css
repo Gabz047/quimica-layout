@@ -194,6 +194,7 @@ p#nomes {
 #citacao1 {
     margin-left: 4cm;
     font-size: 0.83rem;
+    line-height: 1;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 }
