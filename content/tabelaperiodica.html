@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/tabela.css">
     <link rel="shortcut icon" href="../imagens/Untitled-4.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Tabela Periódica</title>
 </head>
 
@@ -38,14 +39,686 @@
             </ul>
     </header>
     <div class="background-Table">
-    
-    <div class="Table-Tb">
-    </div>
-    <div class="Mural-Tb">
-    </div>
-    <div class="footer-Tb">
-    </div>
-</div>
-    <script src="../backend/script.js"></script>
+        <div class="displayELMNT-container" id="padrao">
+            <div class="displayELMNT-container" id="H">
+                <div class="nome-box">
+                    <h1>(H) Hidrogênio</h1>
+                </div>
+                <div class="container-propriedades">
+                    <div class="box-propri">
+                    <table>
+                        <tr>
+                            <td id="C1">Prótons</td>
+                            <td id="C2">1</td>
+                        </tr>
+                        <tr>
+                            <td id="C1">Elétrons</td>
+                            <td id="C2">1</td>
+                        </tr>
+                        <tr>
+                            <td id="C1">Neutrôns</td>
+                            <td id="C2">3</td>
+                        </tr>
+                        <tr>
+                            <td id="C1">Massa Atômica</td>
+                            <td id="C2">1,008</td>
+                        </tr>
+                        <tr>
+                            <td id="C1">Camadas Eletrônicas</td>
+                            <td id="C2">K = 1</td>
+                        </tr>
+                        <tr>
+                            <td id="C1">Ponto de fusão</td>
+                            <td id="C2">mil grau</td>
+                        </tr>
+                        <tr>
+                            <td id="C1">Ponto de ebulição</td>
+                            <td id="C2">3 grau</td>
+                        </tr>
+                    </table>
+                </div>
+                    <div class="container-descricao">
+                        <p>O hidrogênio é um elemento químico muito abundante no universo, mas raro na Terra. É o elemento mais simples, consistindo de apenas um próton e um elétron. É altamente inflamável e é frequentemente usado como combustível</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="elementos1">
+        <h4 id="nmAtomico">1</h4>
+        <h1 id="nomeElmnt">H</h1>
+        <h4 id="massaAtm">1,008</h4>
+      </div>
+      <div class="elementos2">
+        <h4 id="nmAtomico">2</h4>
+        <h1 id="nomeElmnt">He</h1>
+        <h4 id="massaAtm">4,0026</h4>
+      </div>
+      <div class="elementos3">
+        <h4 id="nmAtomico">3</h4>
+        <h1 id="nomeElmnt">Li</h1>
+        <h4 id="massaAtm">6,94</h4>
+      </div>
+      <div class="elementos4">
+        <h4 id="nmAtomico">4</h4>
+        <h1 id="nomeElmnt">Be</h1>
+        <h4 id="massaAtm">9,0122</h4>
+      </div>
+      <div class="elementos5">
+        <h4 id="nmAtomico">5</h4>
+        <h1 id="nomeElmnt">B</h1>
+        <h4 id="massaAtm">10,81</h4>
+      </div>
+      <div class="elementos6">
+        <h4 id="nmAtomico">6</h4>
+        <h1 id="nomeElmnt">C</h1>
+        <h4 id="massaAtm">12,011</h4>
+      </div>
+      <div class="elementos7">
+        <h4 id="nmAtomico">7</h4>
+        <h1 id="nomeElmnt">N</h1>
+        <h4 id="massaAtm">14,007</h4>
+      </div>
+      <div class="elementos8">
+        <h4 id="nmAtomico">8</h4>
+        <h1 id="nomeElmnt">O</h1>
+        <h4 id="massaAtm">15,999</h4>
+      </div>
+      <div class="elementos9">
+        <h4 id="nmAtomico">9</h4>
+        <h1 id="nomeElmnt">F</h1>
+        <h4 id="massaAtm">18,998</h4>
+      </div>
+      <div class="elementos10">
+        <h4 id="nmAtomico">10</h4>
+        <h1 id="nomeElmnt">Ne</h1>
+        <h4 id="massaAtm">20,180</h4>
+      </div>
+      <div class="elementos11">
+        <h4 id="nmAtomico">11</h4>
+        <h1 id="nomeElmnt">Na</h1>
+        <h4 id="massaAtm">22,990</h4>
+      </div>
+      <div class="elementos12">
+        <h4 id="nmAtomico">12</h4>
+        <h1 id="nomeElmnt">Mg</h1>
+        <h4 id="massaAtm">24,305</h4>
+      </div>
+      <div class="elementos13">
+        <h4 id="nmAtomico">13</h4>
+        <h1 id="nomeElmnt">Al</h1>
+        <h4 id="massaAtm">26,982</h4>
+      </div>
+      <div class="elementos14">
+        <h4 id="nmAtomico">14</h4>
+        <h1 id="nomeElmnt">Si</h1>
+        <h4 id="massaAtm">28,085</h4>
+      </div>
+      <div class="elementos15">
+        <h4 id="nmAtomico">15</h4>
+        <h1 id="nomeElmnt">P</h1>
+        <h4 id="massaAtm">30,974</h4>
+      </div>
+      <div class="elementos16">
+        <h4 id="nmAtomico">16</h4>
+        <h1 id="nomeElmnt">S</h1>
+        <h4 id="massaAtm">32,06</h4>
+      </div>
+      <div class="elementos17">
+        <h4 id="nmAtomico">17</h4>
+        <h1 id="nomeElmnt">Cl</h1>
+        <h4 id="massaAtm">35,45</h4>
+      </div>
+      <div class="elementos18">
+        <h4 id="nmAtomico">18</h4>
+        <h1 id="nomeElmnt">Ar</h1>
+        <h4 id="massaAtm">39,948</h4>
+      </div>
+      <div class="elementos19">
+        <h4 id="nmAtomico">19</h4>
+        <h1 id="nomeElmnt">K</h1>
+        <h4 id="massaAtm">39,098</h4>
+      </div>
+      <div class="elementos20">
+        <h4 id="nmAtomico">20</h4>
+        <h1 id="nomeElmnt">Ca</h1>
+        <h4 id="massaAtm">40,078</h4>
+      </div>
+      <div class="elementos21">
+        <h4 id="nmAtomico">21</h4>
+        <h1 id="nomeElmnt">Sc</h1>
+        <h4 id="massaAtm">44,956</h4>
+      </div>
+      <div class="elementos22">
+        <h4 id="nmAtomico">22</h4>
+        <h1 id="nomeElmnt">Ti</h1>
+        <h4 id="massaAtm">47,867</h4>
+      </div>
+      <div class="elementos23">
+        <h4 id="nmAtomico">23</h4>
+        <h1 id="nomeElmnt">V</h1>
+        <h4 id="massaAtm">50,942</h4>
+      </div>
+      <div class="elementos24">
+        <h4 id="nmAtomico">24</h4>
+        <h1 id="nomeElmnt">Cr</h1>
+        <h4 id="massaAtm">51,996</h4>
+      </div>
+      <div class="elementos25">
+        <h4 id="nmAtomico">25</h4>
+        <h1 id="nomeElmnt">Mn</h1>
+        <h4 id="massaAtm">54,938</h4>
+      </div>
+      <div class="elementos26">
+        <h4 id="nmAtomico">26</h4>
+        <h1 id="nomeElmnt">Fe</h1>
+        <h4 id="massaAtm">55,845</h4>
+      </div>
+      <div class="elementos27">
+        <h4 id="nmAtomico">27</h4>
+        <h1 id="nomeElmnt">Co</h1>
+        <h4 id="massaAtm">58,933</h4>
+      </div>
+      <div class="elementos28">
+        <h4 id="nmAtomico">28</h4>
+        <h1 id="nomeElmnt">Ni</h1>
+        <h4 id="massaAtm">58,693</h4>
+      </div>
+      <div class="elementos29">
+        <h4 id="nmAtomico">29</h4>
+        <h1 id="nomeElmnt">Cu</h1>
+        <h4 id="massaAtm">63,546</h4>
+      </div>
+      <div class="elementos30">
+        <h4 id="nmAtomico">30</h4>
+        <h1 id="nomeElmnt">Zn</h1>
+        <h4 id="massaAtm">65,38</h4>
+      </div>
+      <div class="elementos31">
+        <h4 id="nmAtomico">31</h4>
+        <h1 id="nomeElmnt">Ga</h1>
+        <h4 id="massaAtm">69,723</h4>
+      </div>
+      <div class="elementos32">
+        <h4 id="nmAtomico">32</h4>
+        <h1 id="nomeElmnt">Ge</h1>
+        <h4 id="massaAtm">72,630</h4>
+      </div>
+      <div class="elementos33">
+          <h4 id="nmAtomico">33</h4>
+        <h1 id="nomeElmnt">As</h1>
+        <h4 id="massaAtm">74,922</h4>
+      </div>
+      <div class="elementos34">
+        <h4 id="nmAtomico">34</h4>
+        <h1 id="nomeElmnt">Se</h1>
+        <h4 id="massaAtm">78,971</h4>
+      </div>
+      <div class="elementos35">
+        <h4 id="nmAtomico">35</h4>
+        <h1 id="nomeElmnt">Br</h1>
+        <h4 id="massaAtm">79,904</h4>
+      </div>
+      <div class="elementos36">
+        <h4 id="nmAtomico">36</h4>
+        <h1 id="nomeElmnt">Kr</h1>
+        <h4 id="massaAtm">83,798</h4>
+      </div>
+      <div class="elementos37">
+        <h4 id="nmAtomico">37</h4>
+        <h1 id="nomeElmnt">Rb</h1>
+        <h4 id="massaAtm">85,468</h4>
+      </div>
+      <div class="elementos38">
+        <h4 id="nmAtomico">38</h4>
+        <h1 id="nomeElmnt">Sr</h1>
+        <h4 id="massaAtm">87,62</h4>
+      </div>
+      <div class="elementos39">
+        <h4 id="nmAtomico">39</h4>
+        <h1 id="nomeElmnt">Y</h1>
+        <h4 id="massaAtm">88,906</h4>
+      </div>
+      <div class="elementos40">
+        <h4 id="nmAtomico">40</h4>
+        <h1 id="nomeElmnt">Zr</h1>
+        <h4 id="massaAtm">91,224</h4>
+      </div>
+      <div class="elementos41">
+        <h4 id="nmAtomico">41</h4>
+        <h1 id="nomeElmnt">Nb</h1>
+        <h4 id="massaAtm">92,906</h4>
+      </div>
+      <div class="elementos42">
+        <h4 id="nmAtomico">42</h4>
+        <h1 id="nomeElmnt">Mo</h1>
+        <h4 id="massaAtm">95,95</h4>
+      </div>
+      <div class="elementos43">
+        <h4 id="nmAtomico">43</h4>
+        <h1 id="nomeElmnt">Tc</h1>
+        <h4 id="massaAtm">98</h4>
+      </div>
+      <div class="elementos44">
+        <h4 id="nmAtomico">44</h4>
+        <h1 id="nomeElmnt">Ru</h1>
+        <h4 id="massaAtm">101,07</h4>
+      </div>
+      <div class="elementos45">
+        <h4 id="nmAtomico">45</h4>
+        <h1 id="nomeElmnt">Rh</h1>
+        <h4 id="massaAtm">102,91</h4>
+      </div>
+      <div class="elementos46">
+        <h4 id="nmAtomico">46</h4>
+        <h1 id="nomeElmnt">Pd</h1>
+        <h4 id="massaAtm">106,42</h4>
+      </div>
+      <div class="elementos47">
+        <h4 id="nmAtomico">47</h4>
+        <h1 id="nomeElmnt">Ag</h1>
+        <h4 id="massaAtm">107,87</h4>
+      </div>
+      <div class="elementos48">
+        <h4 id="nmAtomico">48</h4>
+        <h1 id="nomeElmnt">Cd</h1>
+        <h4 id="massaAtm">112,41</h4>
+      </div>
+      <div class="elementos49">
+        <h4 id="nmAtomico">49</h4>
+        <h1 id="nomeElmnt">In</h1>
+        <h4 id="massaAtm">114,82</h4>
+      </div>
+      <div class="elementos50">
+        <h4 id="nmAtomico">50</h4>
+        <h1 id="nomeElmnt">Sn</h1>
+        <h4 id="massaAtm">118,71</h4>
+      </div>
+      <div class="elementos51">
+        <h4 id="nmAtomico">51</h4>
+        <h1 id="nomeElmnt">Sb</h1>
+        <h4 id="massaAtm">121,76</h4>
+      </div>
+      <div class="elementos52">
+        <h4 id="nmAtomico">52</h4>
+        <h1 id="nomeElmnt">Te</h1>
+        <h4 id="massaAtm">127,60</h4>
+      </div>
+      <div class="elementos53">
+        <h4 id="nmAtomico">53</h4>
+        <h1 id="nomeElmnt">I</h1>
+        <h4 id="massaAtm">126,90</h4>
+      </div>
+      <div class="elementos54">
+        <h4 id="nmAtomico">54</h4>
+        <h1 id="nomeElmnt">Xe</h1>
+        <h4 id="massaAtm">131,29</h4>
+      </div>
+      <div class="elementos55">
+        <h4 id="nmAtomico">55</h4>
+        <h1 id="nomeElmnt">Cs</h1>
+        <h4 id="massaAtm">132,91</h4>
+      </div>
+      <div class="elementos56">
+        <h4 id="nmAtomico">56</h4>
+        <h1 id="nomeElmnt">Ba</h1>
+        <h4 id="massaAtm">137,33</h4>
+      </div>
+      <div class="elementos57">
+        <h4 id="nmAtomico">57</h4>
+        <h1 id="nomeElmnt">La</h1>
+        <h4 id="massaAtm">138,91</h4>
+      </div>
+      <div class="elementos58">
+        <h4 id="nmAtomico">58</h4>
+        <h1 id="nomeElmnt">Ce</h1>
+        <h4 id="massaAtm">140,12</h4>
+      </div>
+      <div class="elementos59">
+        <h4 id="nmAtomico">59</h4>
+        <h1 id="nomeElmnt">Pr</h1>
+        <h4 id="massaAtm">140,91</h4>
+      </div>
+      <div class="elementos60">
+        <h4 id="nmAtomico">60</h4>
+        <h1 id="nomeElmnt">Nd</h1>
+        <h4 id="massaAtm">144,24</h4>
+      </div>
+      <div class="elementos61">
+        <h4 id="nmAtomico">61</h4>
+        <h1 id="nomeElmnt">Pm</h1>
+        <h4 id="massaAtm">145</h4>
+      </div>
+      <div class="elementos62">
+        <h4 id="nmAtomico">62</h4>
+        <h1 id="nomeElmnt">Sm</h1>
+        <h4 id="massaAtm">150,36</h4>
+      </div>
+      <div class="elementos63">
+        <h4 id="nmAtomico">63</h4>
+        <h1 id="nomeElmnt">Eu</h1>
+        <h4 id="massaAtm">151,96</h4>
+      </div>
+      <div class="elementos64">
+        <h4 id="nmAtomico">64</h4>
+        <h1 id="nomeElmnt">Gd</h1>
+        <h4 id="massaAtm">157,25</h4>
+      </div>
+      <div class="elementos65">
+        <h4 id="nmAtomico">65</h4>
+        <h1 id="nomeElmnt">Tb</h1>
+        <h4 id="massaAtm">158,93</h4>
+      </div>
+      <div class="elementos66">
+        <h4 id="nmAtomico">66</h4>
+        <h1 id="nomeElmnt">Dy</h1>
+        <h4 id="massaAtm">162,50</h4>
+      </div>
+      <div class="elementos67">
+        <h4 id="nmAtomico">67</h4>
+        <h1 id="nomeElmnt">Ho</h1>
+        <h4 id="massaAtm">164,93</h4>
+      </div>
+      <div class="elementos68">
+        <h4 id="nmAtomico">68</h4>
+        <h1 id="nomeElmnt">Er</h1>
+        <h4 id="massaAtm">167,26</h4>
+      </div>
+      <div class="elementos69">
+        <h4 id="nmAtomico">69</h4>
+        <h1 id="nomeElmnt">Tm</h1>
+        <h4 id="massaAtm">168,93</h4>
+      </div>
+      <div class="elementos70">
+        <h4 id="nmAtomico">70</h4>
+        <h1 id="nomeElmnt">Yb</h1>
+        <h4 id="massaAtm">173,05</h4>
+      </div>
+      <div class="elementos71">
+        <h4 id="nmAtomico">71</h4>
+        <h1 id="nomeElmnt">Lu</h1>
+        <h4 id="massaAtm">174,97</h4>
+      </div>
+      <div class="elementos72">
+        <h4 id="nmAtomico">72</h4>
+        <h1 id="nomeElmnt">Hf</h1>
+        <h4 id="massaAtm">178,49</h4>
+      </div>
+      <div class="elementos73">
+        <h4 id="nmAtomico">73</h4>
+        <h1 id="nomeElmnt">Ta</h1>
+        <h4 id="massaAtm">180,95</h4>
+      </div>
+      <div class="elementos74">
+        <h4 id="nmAtomico">74</h4>
+        <h1 id="nomeElmnt">W</h1>
+        <h4 id="massaAtm">183,84</h4>
+      </div>
+      <div class="elementos75">
+        <h4 id="nmAtomico">75</h4>
+        <h1 id="nomeElmnt">Re</h1>
+        <h4 id="massaAtm">186,21</h4>
+      </div>
+      <div class="elementos76">
+        <h4 id="nmAtomico">76</h4>
+        <h1 id="nomeElmnt">Os</h1>
+        <h4 id="massaAtm">190,23</h4>
+      </div>
+      <div class="elementos77">
+        <h4 id="nmAtomico">77</h4>
+        <h1 id="nomeElmnt">Ir</h1>
+        <h4 id="massaAtm">192,22</h4>
+      </div>
+      <div class="elementos78">
+        <h4 id="nmAtomico">78</h4>
+        <h1 id="nomeElmnt">Pt</h1>
+        <h4 id="massaAtm">195,08</h4>
+      </div>
+      <div class="elementos79">
+        <h4 id="nmAtomico">79</h4>
+        <h1 id="nomeElmnt">Au</h1>
+        <h4 id="massaAtm">196,97</h4>
+      </div>
+      <div class="elementos80">
+        <h4 id="nmAtomico">80</h4>
+        <h1 id="nomeElmnt">Hg</h1>
+        <h4 id="massaAtm">200,59</h4>
+      </div>
+      <div class="elementos81">
+        <h4 id="nmAtomico">81</h4>
+        <h1 id="nomeElmnt">Tl</h1>
+        <h4 id="massaAtm">204,38</h4>
+      </div>
+      <div class="elementos82">
+        <h4 id="nmAtomico">82</h4>
+        <h1 id="nomeElmnt">Pb</h1>
+        <h4 id="massaAtm">207,2</h4>
+      </div>
+      <div class="elementos83">
+        <h4 id="nmAtomico">83</h4>
+        <h1 id="nomeElmnt">Bi</h1>
+        <h4 id="massaAtm">208,98</h4>
+      </div>
+      <div class="elementos84">
+        <h4 id="nmAtomico">84</h4>
+        <h1 id="nomeElmnt">Po</h1>
+        <h4 id="massaAtm">209</h4>
+      </div>
+      <div class="elementos85">
+        <h4 id="nmAtomico">85</h4>
+        <h1 id="nomeElmnt">At</h1>
+        <h4 id="massaAtm">210</h4>
+      </div>
+      <div class="elementos86">
+        <h4 id="nmAtomico">86</h4>
+        <h1 id="nomeElmnt">Rn</h1>
+        <h4 id="massaAtm">222</h4>
+      </div>
+      <div class="elementos87">
+        <h4 id="nmAtomico">87</h4>
+        <h1 id="nomeElmnt">Fr</h1>
+        <h4 id="massaAtm">223</h4>
+      </div>
+      <div class="elementos88">
+        <h4 id="nmAtomico">88</h4>
+        <h1 id="nomeElmnt">Ra</h1>
+        <h4 id="massaAtm">226</h4>
+      </div>
+      <div class="elementos89">
+        <h4 id="nmAtomico">89</h4>
+        <h1 id="nomeElmnt">Ac</h1>
+        <h4 id="massaAtm">227</h4>
+      </div>
+      <div class="elementos90">
+        <h4 id="nmAtomico">90</h4>
+        <h1 id="nomeElmnt">Th</h1>
+        <h4 id="massaAtm">232,04</h4>
+      </div>
+      <div class="elementos91">
+        <h4 id="nmAtomico">91</h4>
+        <h1 id="nomeElmnt">Pa</h1>
+        <h4 id="massaAtm">231,04</h4>
+      </div>
+      <div class="elementos92">
+        <h4 id="nmAtomico">92</h4>
+        <h1 id="nomeElmnt">U</h1>
+        <h4 id="massaAtm">238,03</h4>
+      </div>
+      <div class="elementos93">
+        <h4 id="nmAtomico">93</h4>
+        <h1 id="nomeElmnt">Np</h1>
+        <h4 id="massaAtm">237</h4>
+      </div>
+      <div class="elementos94">
+        <h4 id="nmAtomico">94</h4>
+        <h1 id="nomeElmnt">Pu</h1>
+        <h4 id="massaAtm">244</h4>
+      </div>
+      <div class="elementos95">
+        <h4 id="nmAtomico">95</h4>
+        <h1 id="nomeElmnt">Am</h1>
+        <h4 id="massaAtm">243</h4>
+      </div>
+      <div class="elementos96">
+        <h4 id="nmAtomico">96</h4>
+        <h1 id="nomeElmnt">Cm</h1>
+        <h4 id="massaAtm">247</h4>
+      </div>
+      <div class="elementos97">
+        <h4 id="nmAtomico">97</h4>
+        <h1 id="nomeElmnt">Bk</h1>
+        <h4 id="massaAtm">247</h4>
+      </div>
+      <div class="elementos98">
+        <h4 id="nmAtomico">98</h4>
+        <h1 id="nomeElmnt">Cf</h1>
+        <h4 id="massaAtm">251</h4>
+      </div>
+      <div class="elementos99">
+        <h4 id="nmAtomico">99</h4>
+        <h1 id="nomeElmnt">Es</h1>
+        <h4 id="massaAtm">252</h4>
+      </div>
+      <div class="elementos100">
+        <h4 id="nmAtomico">100</h4>
+        <h1 id="nomeElmnt">Fm</h1>
+        <h4 id="massaAtm">257</h4>
+      </div>
+      <div class="elementos101">
+        <h4 id="nmAtomico">101</h4>
+        <h1 id="nomeElmnt">Md</h1>
+        <h4 id="massaAtm">258</h4>
+      </div>
+      <div class="elementos102">
+        <h4 id="nmAtomico">102</h4>
+        <h1 id="nomeElmnt">No</h1>
+        <h4 id="massaAtm">259</h4>
+      </div>
+      <div class="elementos103">
+        <h4 id="nmAtomico">103</h4>
+        <h1 id="nomeElmnt">Lr</h1>
+        <h4 id="massaAtm">266</h4>
+      </div>
+      <div class="elementos104">
+        <h4 id="nmAtomico">104</h4>
+        <h1 id="nomeElmnt">Rf</h1>
+        <h4 id="massaAtm">267</h4>
+      </div>
+      <div class="elementos105">
+        <h4 id="nmAtomico">105</h4>
+        <h1 id="nomeElmnt">Db</h1>
+        <h4 id="massaAtm">268</h4>
+      </div>
+      <div class="elementos106">
+        <h4 id="nmAtomico">106</h4>
+        <h1 id="nomeElmnt">Sg</h1>
+        <h4 id="massaAtm">269</h4>
+      </div>
+      <div class="elementos107">
+        <h4 id="nmAtomico">107</h4>
+        <h1 id="nomeElmnt">Bh</h1>
+        <h4 id="massaAtm">270</h4>
+      </div>
+      <div class="elementos108">
+        <h4 id="nmAtomico">108</h4>
+        <h1 id="nomeElmnt">Hs</h1>
+        <h4 id="massaAtm">277</h4>
+      </div>
+      <div class="elementos109">
+        <h4 id="nmAtomico">109</h4>
+        <h1 id="nomeElmnt">Mt</h1>
+        <h4 id="massaAtm">278</h4>
+      </div>
+      <div class="elementos110">
+        <h4 id="nmAtomico">110</h4>
+        <h1 id="nomeElmnt">Ds</h1>
+        <h4 id="massaAtm">281</h4>
+      </div>
+      <div class="elementos111">
+        <h4 id="nmAtomico">111</h4>
+        <h1 id="nomeElmnt">Rg</h1>
+        <h4 id="massaAtm">282</h4>
+      </div>
+      <div class="elementos112">
+        <h4 id="nmAtomico">112</h4>
+        <h1 id="nomeElmnt">Cn</h1>
+        <h4 id="massaAtm">285</h4>
+      </div>
+      <div class="elementos113">
+        <h4 id="nmAtomico">113</h4>
+        <h1 id="nomeElmnt">Nh</h1>
+        <h4 id="massaAtm">286</h4>
+      </div>
+      <div class="elementos114">
+        <h4 id="nmAtomico">114</h4>
+        <h1 id="nomeElmnt">Fl</h1>
+        <h4 id="massaAtm">289</h4>
+      </div>
+      <div class="elementos115">
+        <h4 id="nmAtomico">115</h4>
+        <h1 id="nomeElmnt">Mc</h1>
+        <h4 id="massaAtm">290</h4>
+      </div>
+      <div class="elementos116">
+        <h4 id="nmAtomico">116</h4>
+        <h1 id="nomeElmnt">Lv</h1>
+        <h4 id="massaAtm">293</h4>
+      </div>
+      <div class="elementos117">
+        <h4 id="nmAtomico">117</h4>
+        <h1 id="nomeElmnt">Ts</h1>
+        <h4 id="massaAtm">294</h4>
+      </div>
+      <div class="elementos118">
+        <h4 id="nmAtomico">118</h4>
+        <h1 id="nomeElmnt">Og</h1>
+        <h4 id="massaAtm">294</h4>
+      </div>
+      <div class="cores-container">
+        <ul>
+            <li>
+                <div class="NM-cores"></div>
+                Não metais
+            </li>
+            <li>
+                <div class="GS-cores"></div>
+                Gases nobres
+            </li>
+            <li>
+                <div class="MA-cores"></div>
+                Metais alcalinos
+            </li>
+            <li>
+                <div class="MAT-cores"></div>
+                Metais alcalino-terrosos
+            </li>
+            <li>
+                <div class="SM-cores"></div>
+                Semimetais
+            </li>
+            <li>
+                <div class="HL-cores"></div>
+                Halogênios
+            </li>
+            <li>
+                <div class="OM-cores"></div>
+                Outros metais
+            </li>
+            <li>
+                <div class="MT-cores"></div>
+                Metais de transição
+            </li>
+            <li>
+                <div class="LT-cores"></div>
+                Latanídeos
+            </li>
+            <li>
+                <div class="AC-cores"></div>
+                Actinídeos
+            </li>
+        </ul>
+      </div>
+      <script src="../backend/tabela.js"></script>
+      <script src="../backend/script.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 </html>
