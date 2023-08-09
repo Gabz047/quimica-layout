@@ -96,7 +96,7 @@ a {
 
 
 .background-Table {
-   width: 96%;
+   width: 1700px;
    height: auto;
    background-color: rgb(235, 234, 234);
    margin: 8vh auto 0;
@@ -197,7 +197,7 @@ a {
 
 .cores-container {
     grid-column: 1 /span 3;
-    grid-row: 8 /span 10;
+    grid-row: 8 /span 9;
     background-color: rgb(253, 247, 240);
 }
 
@@ -298,8 +298,7 @@ a {
 }
 
 .elementos1 {
-    width: 96.61px;
-    height: 88.88px;
+    width: 100%;
     background-color: var(--cor-Nmetal);
     grid-column: 1;
     grid-row: 1;
@@ -314,7 +313,7 @@ a {
 }
 
 .elementos2 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Gnbr);
     grid-column: 18;
@@ -322,7 +321,7 @@ a {
 }
 
 .elementos3 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Malca);
     grid-column: 1;
@@ -330,7 +329,7 @@ a {
 }
 
 .elementos4 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-MalcaTe);
     grid-column: 2;
@@ -338,7 +337,7 @@ a {
 }
 
 .elementos5 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-SMetais);
     grid-column: 13;
@@ -346,7 +345,7 @@ a {
 }
 
 .elementos6 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Nmetal);
     grid-column: 14;
@@ -354,7 +353,7 @@ a {
 }
 
 .elementos7 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Nmetal);
     grid-column: 15;
@@ -362,7 +361,7 @@ a {
 }
 
 .elementos8 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Nmetal);
     grid-column: 16;
@@ -370,7 +369,7 @@ a {
 }
 
 .elementos9 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Hlgn);
     grid-column: 17;
@@ -378,7 +377,7 @@ a {
 }
 
 .elementos10 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Gnbr);
     grid-column: 18;
@@ -386,7 +385,7 @@ a {
 }
 
 .elementos11 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Malca);
     grid-column: 1;
@@ -394,7 +393,7 @@ a {
 }
 
 .elementos12 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-MalcaTe);
     grid-column: 2;
@@ -402,7 +401,7 @@ a {
 }
 
 .elementos13 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 13;
@@ -410,7 +409,7 @@ a {
 }
 
 .elementos14 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-SMetais);
     grid-column: 14;
@@ -418,7 +417,7 @@ a {
 }
 
 .elementos15 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Nmetal);
     grid-column: 15;
@@ -426,7 +425,7 @@ a {
 }
 
 .elementos16 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Nmetal);
     grid-column: 16;
@@ -434,7 +433,7 @@ a {
 }
 
 .elementos17 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Hlgn);
     grid-column: 17;
@@ -442,7 +441,7 @@ a {
 }
 
 .elementos18 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Gnbr);
     grid-column: 18;
@@ -450,7 +449,7 @@ a {
 }
 
 .elementos19 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Malca);
     grid-column: 1;
@@ -458,7 +457,7 @@ a {
 }
 
 .elementos20 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-MalcaTe);
     grid-column: 2;
@@ -466,7 +465,7 @@ a {
 }
 
 .elementos21 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 3;
@@ -474,7 +473,7 @@ a {
 }
 
 .elementos22 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 4;
@@ -482,7 +481,7 @@ a {
 }
 
 .elementos23 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 5;
@@ -490,7 +489,7 @@ a {
 }
 
 .elementos24 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 6;
@@ -498,7 +497,7 @@ a {
 }
 
 .elementos25 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 7;
@@ -506,7 +505,7 @@ a {
 }
 
 .elementos26 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 8;
@@ -514,7 +513,7 @@ a {
 }
 
 .elementos27 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 9;
@@ -522,7 +521,7 @@ a {
 }
 
 .elementos28 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 10;
@@ -530,7 +529,7 @@ a {
 }
 
 .elementos29 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 11;
@@ -538,7 +537,7 @@ a {
 }
 
 .elementos30 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 12;
@@ -546,7 +545,7 @@ a {
 }
 
 .elementos31 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 13;
@@ -554,7 +553,7 @@ a {
 }
 
 .elementos32 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-SMetais);
     grid-column: 14;
@@ -562,7 +561,7 @@ a {
 }
 
 .elementos33 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-SMetais);
     grid-column: 15;
@@ -570,7 +569,7 @@ a {
 }
 
 .elementos34 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Nmetal);
     grid-column: 16;
@@ -578,7 +577,7 @@ a {
 }
 
 .elementos35 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Hlgn);
     grid-column: 17;
@@ -586,7 +585,7 @@ a {
 }
 
 .elementos36 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Gnbr);
     grid-column: 18;
@@ -594,7 +593,7 @@ a {
 }
 
 .elementos37 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Malca);
     grid-column: 1;
@@ -602,7 +601,7 @@ a {
 }
 
 .elementos38 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-MalcaTe);
     grid-column: 2;
@@ -610,7 +609,7 @@ a {
 }
 
 .elementos39 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 3;
@@ -618,7 +617,7 @@ a {
 }
 
 .elementos40 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 4;
@@ -626,7 +625,7 @@ a {
 }
 
 .elementos41 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 5;
@@ -634,7 +633,7 @@ a {
 }
 
 .elementos42 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 6;
@@ -642,14 +641,14 @@ a {
 }
 
 .elementos43 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 7;
     grid-row: 5;
 }
 .elementos44 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 8;
@@ -657,7 +656,7 @@ a {
 }
 
 .elementos45 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 9;
@@ -665,511 +664,511 @@ a {
 }
 
 .elementos46 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 10;
     grid-row: 5;
 }
 .elementos47 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 11;
     grid-row: 5;
 }
 .elementos48 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 12;
     grid-row: 5;
 }
 .elementos49 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 13;
     grid-row: 5;
 }
 .elementos50 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 14;
     grid-row: 5;
 }
 .elementos51 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-SMetais);
     grid-column: 15;
     grid-row: 5;
 }
 .elementos52 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-SMetais);
     grid-column: 16;
     grid-row: 5;
 }
 .elementos53 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Hlgn);
     grid-column: 17;
     grid-row: 5;
 }
 .elementos54 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Gnbr);
     grid-column: 18;
     grid-row: 5;
 }
 .elementos55 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Malca);
     grid-column: 1;
     grid-row: 6;
 }
 .elementos56 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-MalcaTe);
     grid-column: 2;
     grid-row: 6;
 }
 .elementos57 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 4;
     grid-row: 9;
 }
 .elementos58 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 5;
     grid-row: 9;
 }
 .elementos59 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 6;
     grid-row: 9;
 }
 .elementos60 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 7;
     grid-row: 9;
 }
 .elementos61 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 8;
     grid-row: 9;
 }
 .elementos62 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 9;
     grid-row: 9;
 }
 .elementos63 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 10;
     grid-row: 9;
 }
 .elementos64 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 11;
     grid-row: 9;
 }
 .elementos65 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 12;
     grid-row: 9;
 }
 .elementos66 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 13;
     grid-row: 9;
 }
 .elementos67 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 14;
     grid-row: 9;
 }
 .elementos68 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 15;
     grid-row: 9;
 }
 .elementos69 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 16;
     grid-row: 9;
 }
 .elementos70 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 17;
     grid-row: 9;
 }
 .elementos71 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ltnds);
     grid-column: 18;
     grid-row: 9;
 }
 .elementos72 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 4;
     grid-row: 6;
 }
 .elementos73 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 5;
     grid-row: 6;
 }
 .elementos74 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 6;
     grid-row: 6;
 }
 .elementos75 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 7;
     grid-row: 6;
 }
 .elementos76 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 8;
     grid-row: 6;
 }
 .elementos77 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 9;
     grid-row: 6;
 }
 .elementos78 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 10;
     grid-row: 6;
 }
 .elementos79 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 11;
     grid-row: 6;
 }
 .elementos80 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 12;
     grid-row: 6;
 }
 .elementos81 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 13;
     grid-row: 6;
 }
 .elementos82 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 14;
     grid-row: 6;
 }
 .elementos83 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 15;
     grid-row: 6;
 }
 .elementos84 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-SMetais);
     grid-column: 16;
     grid-row: 6;
 }
 .elementos85 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Hlgn);
     grid-column: 17;
     grid-row: 6;
 }
 .elementos86 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Gnbr);
     grid-column: 18;
     grid-row: 6;
 }
 .elementos87 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Malca);
     grid-column: 1;
     grid-row: 7;
 }
 .elementos88 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-MalcaTe);
     grid-column: 2;
     grid-row: 7;
 }
 .elementos89 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
    background-color: var(--cor-Actns);
     grid-column: 4;
     grid-row: 10;
 }
 .elementos90 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 5;
     grid-row: 10;
 }
 .elementos91 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 6;
     grid-row: 10;
 }
 .elementos92 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 7;
     grid-row: 10;
 }
 .elementos93 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 8;
     grid-row: 10;
 }
 .elementos94 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 9;
     grid-row: 10;
 }
 .elementos95 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 10;
     grid-row: 10;
 }
 .elementos96 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 11;
     grid-row: 10;
 }
 .elementos97 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 12;
     grid-row: 10;
 }
 .elementos98 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 13;
     grid-row: 10;
 }
 .elementos99 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 14;
     grid-row: 10;
 }
 .elementos100 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 15;
     grid-row: 10;
 }
 .elementos101 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 16;
     grid-row: 10;
 }
 .elementos102 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 17;
     grid-row: 10;
 }
 .elementos103 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Actns);
     grid-column: 18;
     grid-row: 10;
 }
 .elementos104 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 4;
     grid-row: 7;
 }
 .elementos105 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 5;
     grid-row: 7;
 }
 .elementos106 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 6;
     grid-row: 7;
 }
 .elementos107 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 7;
     grid-row: 7;
 }
 .elementos108 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 8;
     grid-row: 7;
 }
 .elementos109 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 9;
     grid-row: 7;
 }
 .elementos110 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 10;
     grid-row: 7;
 }
 .elementos111 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 11;
     grid-row: 7;
 }
 .elementos112 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Mtran);
     grid-column: 12;
     grid-row: 7;
 }
 .elementos113 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 13;
     grid-row: 7;
 }
 .elementos114 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 14;
     grid-row: 7;
 }
 .elementos115 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 15;
     grid-row: 7;
 }
 .elementos116 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Ometais);
     grid-column: 16;
     grid-row: 7;
 }
 .elementos117 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Hlgn);
     grid-column: 17;
     grid-row: 7;
 }
 .elementos118 {
-    width: 96.61px;
+    width: 100%;
     height: 88.88px;
     background-color: var(--cor-Gnbr);
     grid-column: 18;
