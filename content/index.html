@@ -53,29 +53,45 @@
                 <h1>Química</h1>
             </div>
             <div class="content-box">
-                <div class="img-container-I">
-                    <a href="https://storyset.com/work" target="_blank"><img src="../imagens/img-I.svg"
-                            alt="Work illustrations by Storyset"></a>
-                </div>
-                <div class="description-I">
-                    <h4>A Química é uma área da ciência natural que investiga as propriedades das substâncias, as
-                        transformações pelas quais elas passam e as leis naturais que descrevem essas transformações.
-                        Ela tem suas raízes na antiguidade, quando os químicos, conhecidos como alquimistas naquela
-                        época, buscavam transmutar metais básicos em ouro e criavam poções para curar doenças.</h4>
-                    <h4>O estudo sistemático da Química teve início com os egípcios e os gregos antigos, que foram os
-                        primeiros a propor a existência do átomo. Desde então, a Química tem desempenhado um papel
-                        fundamental em nossa vida cotidiana, mesmo que muitas vezes não percebamos. Nosso próprio corpo
-                        é uma usina química, com inúmeras reações químicas ocorrendo a cada segundo para manter nossa
-                        vida.</h4>
-                </div>
-                <div class="description2-I">
-                    <h4>Sem a Química, nossa civilização não teria alcançado o estágio científico e tecnológico atual.
-                        Ela desempenha um papel crucial no desenvolvimento de medicamentos cada vez mais eficazes, no
-                        aumento da produção de alimentos em terras desafiadoras, na criação de veículos cada vez mais
-                        potentes e resistentes, entre outros avanços. Em sociedades industriais modernas, a Química
-                        desempenha um papel fundamental na economia. Seus avanços têm trazido benefícios para o mundo,
-                        mas também desafios a serem superados. A Química é a chave para a solução de muitos dos
-                        problemas que encontramos em nosso dia a dia.</h4>
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+
+                        <div class="overlay"></div>
+                        <div class="slide first">
+                            <img src="../imagens/frascosroxo.jpg" alt="imagem 1">
+                        </div>
+                        <div class="overlay"></div>
+                        <div class="slide">
+                            <img src="../imagens/c1.avif" alt="imagem 2">
+                        </div>
+                        <div class="overlay"></div>
+                        <div class="slide">
+                            <img src="../imagens/c2.jpg" alt="imagem 3">
+                        </div>
+                        <div class="overlay"></div>
+                        <div class="slide">
+                            <img src="../imagens/c3.png" alt="imagem 4">
+                        </div>
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
                 </div>
             </div>
             <div class="content-box-duvida">
@@ -181,8 +197,10 @@
                 <h3>© 2023 Todos os direitos reservados</h3>
             </div>
             <script src="../backend/script.js"></script>
+            <script src="../backend/carrosel.js"></script>
         </div>
     </div>
+    
 </body>
 
 </html>

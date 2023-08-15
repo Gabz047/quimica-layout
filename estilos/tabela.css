@@ -190,11 +190,12 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #9c9c9c;;
+    position: relative;
 }
 
 .container-descricao p {
     font-size: 22px;
-    padding: 3px;
+    padding: 5px;
 }
 
 #H {
