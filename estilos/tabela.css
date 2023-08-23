@@ -600,6 +600,10 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos21:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos22 {
     width: 100%;
     height: 88.88px;
@@ -608,6 +612,10 @@ border-radius: 3px;
     grid-row: 4;
     cursor: default;
 border-radius: 3px;
+}
+
+.elementos22:hover {
+    background-color: var(--cor-Mtranblack);
 }
 
 .elementos23 {
@@ -620,6 +628,10 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos23:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos24 {
     width: 100%;
     height: 88.88px;
@@ -628,6 +640,10 @@ border-radius: 3px;
     grid-row: 4;
     cursor: default;
 border-radius: 3px;
+}
+
+.elementos24:hover {
+    background-color: var(--cor-Mtranblack);
 }
 
 .elementos25 {
@@ -640,6 +656,10 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos25:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos26 {
     width: 100%;
     height: 88.88px;
@@ -648,6 +668,10 @@ border-radius: 3px;
     grid-row: 4;
     cursor: default;
 border-radius: 3px;
+}
+
+.elementos26:hover {
+    background-color: var(--cor-Mtranblack);
 }
 
 .elementos27 {
@@ -660,6 +684,10 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos27:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos28 {
     width: 100%;
     height: 88.88px;
@@ -668,6 +696,10 @@ border-radius: 3px;
     grid-row: 4;
     cursor: default;
 border-radius: 3px;
+}
+
+.elementos28:hover {
+    background-color: var(--cor-Mtranblack);
 }
 
 .elementos29 {
@@ -680,6 +712,10 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos29:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos30 {
     width: 100%;
     height: 88.88px;
@@ -688,6 +724,10 @@ border-radius: 3px;
     grid-row: 4;
     cursor: default;
 border-radius: 3px;
+}
+
+.elementos30:hover {
+    background-color: var(--cor-Mtranblack);
 }
 
 .elementos31 {
@@ -700,6 +740,10 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos31:hover {
+    background-color: var(--cor-Ometaisblack);
+}
+
 .elementos32 {
     width: 100%;
     height: 88.88px;
@@ -708,6 +752,10 @@ border-radius: 3px;
     grid-row: 4;
     cursor: default;
 border-radius: 3px;
+}
+
+.elementos32:hover {
+    background-color: var(--cor-Smetaisblack);
 }
 
 .elementos33 {
@@ -720,6 +768,11 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos33:hover {
+    background-color: var(--cor-Smetaisblack);
+}
+
+
 .elementos34 {
     width: 100%;
     height: 88.88px;
@@ -729,6 +782,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos34:hover {
+    background-color: var(--cor-Nmetalblack);
+}
+
 
 .elementos35 {
     width: 100%;
@@ -740,6 +798,11 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos35:hover {
+    background-color: var(--cor-Hlgnblack);
+}
+
+
 .elementos36 {
     width: 100%;
     height: 88.88px;
@@ -749,6 +812,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos36:hover {
+    background-color: var(--cor-Gnbrblack);
+}
+
 
 .elementos37 {
     width: 100%;
@@ -760,6 +828,11 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos37:hover {
+    background-color: var(--cor-Malcablack);
+}
+
+
 .elementos38 {
     width: 100%;
     height: 88.88px;
@@ -769,6 +842,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos38:hover {
+    background-color: var(--cor-MalcaTeblack);
+}
+
 
 .elementos39 {
     width: 100%;
@@ -780,6 +858,11 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos39:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
+
 .elementos40 {
     width: 100%;
     height: 88.88px;
@@ -789,6 +872,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos40:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 
 .elementos41 {
     width: 100%;
@@ -800,6 +888,11 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos41:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
+
 .elementos42 {
     width: 100%;
     height: 88.88px;
@@ -810,6 +903,11 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos42:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
+
 .elementos43 {
     width: 100%;
     height: 88.88px;
@@ -819,6 +917,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos43:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos44 {
     width: 100%;
     height: 88.88px;
@@ -828,6 +931,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos44:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 
 .elementos45 {
     width: 100%;
@@ -839,6 +947,11 @@ border-radius: 3px;
 border-radius: 3px;
 }
 
+.elementos45:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
+
 .elementos46 {
     width: 100%;
     height: 88.88px;
@@ -848,6 +961,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos46:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos47 {
     width: 100%;
     height: 88.88px;
@@ -857,6 +975,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos47:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos48 {
     width: 100%;
     height: 88.88px;
@@ -866,6 +989,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos48:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos49 {
     width: 100%;
     height: 88.88px;
@@ -875,6 +1003,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos49:hover {
+    background-color: var(--cor-Ometaisblack);
+}
+
 .elementos50 {
     width: 100%;
     height: 88.88px;
@@ -884,6 +1017,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos50:hover {
+    background-color: var(--cor-Ometaisblack);
+}
+
 .elementos51 {
     width: 100%;
     height: 88.88px;
@@ -893,6 +1031,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos51:hover {
+    background-color: var(--cor-Smetaisblack);
+}
+
 .elementos52 {
     width: 100%;
     height: 88.88px;
@@ -902,6 +1045,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos52:hover {
+    background-color: var(--cor-Smetaisblack);
+}
+
 .elementos53 {
     width: 100%;
     height: 88.88px;
@@ -911,6 +1059,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos53:hover {
+    background-color: var(--cor-Hlgnblack);
+}
+
 .elementos54 {
     width: 100%;
     height: 88.88px;
@@ -920,6 +1073,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos54:hover {
+    background-color: var(--cor-Gnbrblack);
+}
+
 .elementos55 {
     width: 100%;
     height: 88.88px;
@@ -929,6 +1087,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos55:hover {
+ background-color: var(--cor-Malcablack);
+}
+
 .elementos56 {
     width: 100%;
     height: 88.88px;
@@ -938,6 +1101,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos56:hover {
+    background-color: var(--cor-MalcaTeblack);
+}
+
 .elementos57 {
     width: 100%;
     height: 88.88px;
@@ -947,6 +1115,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos57:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos58 {
     width: 100%;
     height: 88.88px;
@@ -956,6 +1129,12 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+
+.elementos58:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos59 {
     width: 100%;
     height: 88.88px;
@@ -965,6 +1144,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos59:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos60 {
     width: 100%;
     height: 88.88px;
@@ -974,6 +1158,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos60:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos61 {
     width: 100%;
     height: 88.88px;
@@ -983,6 +1172,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos61:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos62 {
     width: 100%;
     height: 88.88px;
@@ -992,6 +1186,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos62:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos63 {
     width: 100%;
     height: 88.88px;
@@ -1001,6 +1200,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos63:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos64 {
     width: 100%;
     height: 88.88px;
@@ -1010,6 +1214,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos64:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos65 {
     width: 100%;
     height: 88.88px;
@@ -1019,6 +1228,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos65:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos66 {
     width: 100%;
     height: 88.88px;
@@ -1028,6 +1242,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos66:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos67 {
     width: 100%;
     height: 88.88px;
@@ -1037,6 +1256,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos67:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos68 {
     width: 100%;
     height: 88.88px;
@@ -1046,6 +1270,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos68:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos69 {
     width: 100%;
     height: 88.88px;
@@ -1055,6 +1284,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos69:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos70 {
     width: 100%;
     height: 88.88px;
@@ -1064,6 +1298,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos70:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos71 {
     width: 100%;
     height: 88.88px;
@@ -1073,6 +1312,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos71:hover {
+    background-color: var(--cor-Ltndsblack);
+}
+
 .elementos72 {
     width: 100%;
     height: 88.88px;
@@ -1082,6 +1326,11 @@ border-radius: 3px;
     cursor: default;
 border-radius: 3px;
 }
+
+.elementos72:hover {
+    background-color: var(--cor-Mtranblack);
+}
+
 .elementos73 {
     width: 100%;
     height: 88.88px;
