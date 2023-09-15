@@ -12,195 +12,214 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>INTable</title>
 </head>
 
 <body>
-    <div class="parallax">
-        <header class="cabecalho">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="../imagens/definitvo2.0.png" height="100%" width="100%" alt="">
-                </a>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="../content/index.html">
+                <img src="../imagens/definitvo2.0.png" height="100%" width="100%">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="menu-bar">
+                <li class="menu-itens"><a href="tabelaperiodica.html" class="menu-links">Tabela Periódica</a></li>
+                <li><a href="ligacoesquimicas.html" class="menu-links">Ligações Químicas</a></li>
+                <li><a href="Materialpedagogico.html" class="menu-links">Material Pedagógico</a></li>
+                <li><a href="sambaqui.html" class="menu-links">Sambaqui</a></li>
+            </ul>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../imagens/menu_white_36dp.svg"></button>
             </div>
-            <nav class="menu">
-                <ul class="menu-bar">
-                    <li class="menu-itens"><a href="tabelaperiodica.html" class="menu-links">Tabela Periódica</a></li>
-                    <li><a href="ligacoesquimicas.html" class="menu-links">Ligações Químicas</a></li>
-                    <li><a href="Materialpedagogico.html" class="menu-links">Material Pedagógico</a></li>
-                    <li><a href="sambaqui.html" class="menu-links">Sambaqui</a></li>
-                </ul>
-                <div class="mobile-menu-icon">
-                    <button onclick="menuShow()"><img class="icon" src="../imagens/menu_white_36dp.svg"></button>
+        </nav>
+        <div class="mobile-menu">
+            <ul class="menu">
+                <li class="menu-itens-mb"><a href="tabelaperiodica.html" class="menu-links">Tabela Periódica</a></li>
+                <li class="menu-itens-mb"><a href="ligacoesquimicas.html" class="menu-links">Ligações Químicas</a></li>
+                <li class="menu-itens-mb"><a href="Materialpedagogico.html" class="menu-links">Material Pedagógico</a>
+                </li>
+                <li class="menu-itens-mb"><a href="sambaqui.html" class="menu-links">Sambaqui</a></li>
+            </ul>
+    </header>
+    <main id="main-perguntas">
+        <section class="box-video">
+            <h2>Para entender melhor os conceitos sobre o que é a química, veja este video do canal Elsapines</h2>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/2RWwc3amMc8" frameborder="0"></iframe>
+            </div>
+        </section>
+        <section class="perguntasFreq-section">
+            <div class="h1-peg">
+            <h1>Perguntas Frequentes</h1>
+            </div>
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>Qual o elemento mais resistente da tabela periódica?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
                 </div>
-            </nav>
-            <div class="mobile-menu">
-                <ul class="menu">
-                    <li class="menu-itens-mb"><a href="tabelaperiodica.html" class="menu-links">Tabela Periódica</a>
-                    </li>
-                    <li class="menu-itens-mb"><a href="ligacoesquimicas.html" class="menu-links">Ligações Químicas</a>
-                    </li>
-                    <li class="menu-itens-mb"><a href="Materialpedagogico.html" class="menu-links">Material
-                            Pedagógico</a>
-                    </li>
-                    <li class="menu-itens-mb"><a href="sambaqui.html" class="menu-links">Sambaqui</a></li>
-                </ul>
+                <div class="respostas-box">
+                    <p>O irídio é um metal sólido em temperatura e pressão padrões, conhecido por sua alta densidade.
+                        Ele não só é o elemento com a maior densidade da tabela periódica, como também é o metal mais
+                        resistente à corrosão.</p>
+                </div>
             </div>
-        </header>
-        <section id="paracima"></section>
-        <div class="background-index">
-            <div class="tittle-container-I">
-                <h1>Química</h1>
-            </div>
-            <div class="content-box">
-                <div class="slider">
-                    <div class="slides">
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        <input type="radio" name="radio-btn" id="radio5">
 
-                        <div class="overlay"></div>
-                        <div class="slide first">
-                            <img src="../imagens/frascosroxo.jpg" alt="imagem 1">
-                        </div>
-                        <div class="overlay"></div>
-                        <div class="slide">
-                            <img src="../imagens/c1.avif" alt="imagem 2">
-                        </div>
-                        <div class="overlay"></div>
-                        <div class="slide">
-                            <img src="../imagens/c2.jpg" alt="imagem 3">
-                        </div>
-                        <div class="overlay"></div>
-                        <div class="slide">
-                            <img src="../imagens/c3.png" alt="imagem 4">
-                        </div>
-                    </div>
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>Qual o elemento mais puro?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
+                </div>
+                <div class="respostas-box">
+                    <p>O elemento mais abundante do universo – compõe 75% de sua matéria – é o átomo mais simples existente, com número atômico 1 e massa atômica de aproximadamente 1,00 U.</p>
+                </div>
+            </div>
 
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
-                    </div>
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>O que acontece se misturar todos os elementos químicos da tabela periódica?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
+                </div>
+                <div class="respostas-box">
+                    <p>Você já se perguntou, em meio a divagações nas aulas de química, o que aconteceria se todos os elementos da tabela periódica fossem misturados? Nós temos a resposta! Os cientistas acreditam que o resultado seria um “glúon de plasma” (o que os cientistas acreditam que saiu do Big Bang), ou plutônio em chamas..</p>
+                </div>
+            </div>
 
-                    <div class="manual-navigation">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                    </div>
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>Qual é o metal mais maleável e dúctil conhecido, utilizado em joias e circuitos eletrônicos?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
+                </div>
+                <div class="respostas-box">
+                    <p>Ouro (Au).</p>
                 </div>
             </div>
-            <div class="content-box-duvida">
-                <h3 class="ref1video">Para entender melhor o que é química, recomendamos assistir este vídeo do canal <a
-                        href="https://www.youtube.com/@elesapiens" target="_blank">Elesapiens</a></h3>
-                <div class="video-duvida">
-                    <video src="../imagens/SaveTube.io-O QUE É A QUÍMICA.mp4" controls></video>
+
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>Qual elemento é comumente usado como filamento em antigas lâmpadas incandescentes?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
                 </div>
-                <div class="box-duvidas">
-                    <section>
-                        <details>
-                            <summary>Qual o elemento mais resistente da tabela periódica?</summary>
-                            <p>O irídio é um metal sólido em temperatura e pressão padrões, conhecido por sua alta
-                                densidade. Ele não só é o elemento com a maior densidade da tabela periódica, como
-                                também é o metal mais resistente à corrosão.</p>
-                        </details>
-                        <details>
-                            <summary>Qual o elemento mais puro?
-                            </summary>
-                            <p>O elemento mais abundante do universo – compõe 75% de sua matéria – é o átomo mais
-                                simples existente, com número atômico 1 e massa atômica de aproximadamente 1,00 U.
-                            </p>
-                        </details>
-                        <details>
-                            <summary>O que acontece se misturar todos os elementos químicos da tabela periódica?
-                            </summary>
-                            <p>Você já se perguntou, em meio a divagações nas aulas de química, o que aconteceria se
-                                todos os elementos da tabela periódica fossem misturados? Nós temos a resposta! Os
-                                cientistas acreditam que o resultado seria um “glúon de plasma” (o que os cientistas
-                                acreditam que saiu do Big Bang), ou plutônio em chamas.
-                            </p>
-                        </details>
-                        <details>
-                            <summary>Qual é o metal mais maleável e dúctil conhecido, utilizado em joias e circuitos
-                                eletrônicos?
-                            </summary>
-                            <p>Ouro (Au).</p>
-                        </details>
-                        <details>
-                            <summary>Qual elemento é comumente usado como filamento em antigas lâmpadas incandescentes?
-                            </summary>
-                            <p>Tungstênio (W)</p>
-                        </details>
-                        <details>
-                            <summary>Qual elemento é utilizado na fabricação de vidro resistente ao calor e em
-                                laboratórios químicos como material para recipientes e equipamentos?</summary>
-                            <p>Boro (B)</p>
-                        </details>
-                        <details>
-                            <summary>O que é densidade?</summary>
-                            <p>representa o quociente entre a massa e o volume de um elemento.</p>
-                        </details>
-                        <details>
-                            <summary>O que é ponto de fusão?</summary>
-                            <p>temperatura em que há a passagem do estado sólido para o líquido.</p>
-                        </details>
-                    </section>
+                <div class="respostas-box">
+                    <p>Tungstênio (W)</p>
                 </div>
             </div>
-            <div class="content-box-qmsomos">
-                <h1 class="h1qmsomos">Quem Somos?</h1>
-                <div class="box-qmsomos">
-                    <h4> Nós somos um grupo de quatro estudantes do Instituto Federal Catarinense (IFC) Campus Araquari.
-                        Fizemos este site como um projeto integrador, integrando recursos de desenvolvimento web, como
-                        CSS e HTML, com informações sobre os elementos químicos, ligações metálicas e sambaquis.
-                    </h4>
-                    <h4>Desenvolvedores: Gabriel Lucas de Miranda, Ester do Santos Antunes, Matheus Silveira de Oliveria e João Victor Silva de Souza.    </h4>
+
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>Qual elemento é utilizado na fabricação de vidro resistente ao calor e em laboratórios químicos como material para recipientes e equipamentos?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
                 </div>
-                <div class="box-rdsociais">
-                    <div class="insta">
-                        <i class='bx bxl-instagram'></i>
-                        <h3>@INTable</h3>
-                    </div>
-                    <div class="face">
-                        <i class='bx bxl-facebook-square'></i>
-                        <h3>@INTable</h3>
-                    </div>
-                    <div class="twitter">
-                        <i class='bx bxl-twitter'></i>
-                        <h3>@INTable</h3>
-                    </div>
-                    <div class="youtube">
-                        <i class='bx bxl-youtube'></i>
-                        <h3>@INTable</h3>
-                    </div>
+                <div class="respostas-box">
+                    <p>Boro (B)</p>
                 </div>
             </div>
-            <footer class="footer-box">
-                <div class="footer-box-content">
-                    <div class="logo"><img src="../imagens/Untitled-4.png" alt=""></div>
-                    <div class="btn-links">
-                        <a href="ligacoesquimicas.html">Ligações Químicas</a>
-                        <a href="tabelaperiodica.html">Tabela Periódica</a>
-                        <a href="Materialpedagogico.html">Material Pedagógico</a>
-                        <a href="sambaqui.html">Sambaqui</a>
-                    </div>
-                    <div class="btnVoltar">
-                        <a href="#paracima" id="botaodevoltar"><i class='bx bx-up-arrow-alt'></i></a>
-                    </div>    
+
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>O que é densidade?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
                 </div>
-            </footer>
-            <div class="direitos-box">
-                <h3>© 2023 Todos os direitos reservados</h3>
+                <div class="respostas-box">
+                    <p>representa o quociente entre a massa e o volume de um elemento.</p>
+                </div>
             </div>
-            <script src="../backend/script.js"></script>
-            <script src="../backend/carrosel.js"></script>
+
+            <div class="pergEresp-caixa">
+                <div class="perguntas-box">
+                    <h2>O que é ponto de fusão?</h2>
+                    <button id="btn-abrir-pr">
+                        <i class='bx bxs-plus-square'></i>
+                    </button>
+                </div>
+                <div class="respostas-box">
+                    <p>temperatura em que há a passagem do estado sólido para o líquido.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <article class="about-background">
+        <div class="box-h2">
+            <h2 id="h2-qmsomos">Quem Somos?</h2>
+        </div>
+        <div class="container-qmsomos">
+        <div class="box-qmsomos">
+           <p>Nós somos um grupo de quatro estudantes do Instituto Federal Catarinense (IFC) Campus Araquari. Fizemos este site como um projeto integrador, integrando recursos de desenvolvimento web, como CSS e HTML, com informações sobre os elementos químicos, ligações metálicas e sambaquis.</p>
+        </div>
+        <div class="box-fotos">
+            <div class="integrante gab">
+                <img src="../imagens/gab.jpeg">
+                <div class="desc-h3">
+                    <h3>Gabriel Lucas</h3>
+                </div>
+            </div>
+            
+            <div class="integrante joao">
+                <img src="../imagens/jao.jpeg">
+                <div class="desc-h3">
+                    <h3>João Victor</h3>
+                </div>
+            </div>
+            <div class="integrante ester">
+                <img src="../imagens/ester.jpeg">
+                <div class="desc-h3">
+                    <h3>Ester Antunes</h3>
+                </div>
+            </div>
+            <div class="integrante mat">
+                <img src="../imagens/mat.jpeg">
+                <div class="desc-h3">
+                    <h3>Matheus Oliveira</h3>
+                </div>
+            </div>
         </div>
     </div>
-    
+    </article>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <ul>
+            <li class="setacontainer">
+                <a href="#">Contato</a>
+            </li>
+            <li>
+                <a href="#">Sobre</a>
+            </li>
+            <li>
+                <a href="#">Termos</a>
+            </li>
+            <li>
+                <a href="#">Suporte</a>
+            </li>
+            <li>
+                <a href="#">Produtos</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            Todos os direitos reservados. INTable © 2023
+        </p>
+    </footer>
+    <script src="../backend/perguntas.js"></script>
+    <script src="../backend/script.js"></script>
 </body>
 
 </html>
