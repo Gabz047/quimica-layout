@@ -73,6 +73,7 @@ body {
     padding: 20px;
     color: var(--branco);
     text-decoration: none;
+    font-size: 2.3vh;
 }
 
 .menu a:hover {
@@ -83,7 +84,6 @@ body {
 .logo {
     height: 100px;
     width: 300px;
-
 }
 
 /*Dropdown menu */
@@ -300,11 +300,14 @@ body {
     margin: 0 auto;
     position: relative;
     border: 2px solid white;
+    z-index: 12;
 }
 
 .gab {
     grid-column: 1;
     grid-row: 1;
+    z-index: 12;
+ 
 }
 
 .gab img {
@@ -468,7 +471,7 @@ body {
     text-align: center;
     align-items:end;
     justify-content: center;
-    margin-left: 180vh;
+    margin-left: 95%;
 }
 
 #botaodevoltar i {
