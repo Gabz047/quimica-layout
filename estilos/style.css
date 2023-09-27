@@ -36,7 +36,6 @@ html, body {
 }
 
 body {
-    overflow: overlay;
     background-color: var(--branco);
     height: auto;
     position: relative;
@@ -84,6 +83,11 @@ body {
 .logo {
     height: 100px;
     width: 300px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
 }
 
 /*Dropdown menu */
