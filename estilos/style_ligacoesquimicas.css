@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(191, 190, 190);
     height: 3040px;
     display: flex;
     flex-direction:column;
@@ -32,9 +32,18 @@ p {
     font-style: normal;
     line-height: 1.5;
     font-size: 1rem;
+   margin-top: 12pt;
 }
 
-h4 {
+.p-posh2 {
+    margin-top: 0pt;
+}
+
+#posh3 {
+    margin-top: 0pt;
+}
+
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
   font-weight: bold;
@@ -68,17 +77,19 @@ main {
     text-align: justify;
 }
 
-
+#referenciash3 {
+    margin: 1.5cm 0 1.5cm;
+}
 
 body p::first-letter {
     margin-left: 1.25cm;
   }
 
-p#referenciasP::first-letter {
+.referenciasP::first-letter {
   margin: 0;
 }
 
-p#referenciasP {
+.referenciasP {
     line-height: 1;
     text-align: left;
   }
@@ -131,7 +142,7 @@ p#nomes {
     
 }
 
-#citacao1 {
+.citacao1 {
     margin-left: 4cm;
     font-size: 0.83rem;
     line-height: 1;
