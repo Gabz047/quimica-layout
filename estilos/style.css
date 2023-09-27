@@ -36,6 +36,7 @@ html, body {
 }
 
 body {
+    overflow: overlay;
     background-color: var(--branco);
     height: auto;
     position: relative;
@@ -83,11 +84,6 @@ body {
 .logo {
     height: 100px;
     width: 300px;
-}
-
-.logo img {
-    width: 100%;
-    height: 100%;
 }
 
 /*Dropdown menu */
@@ -150,10 +146,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 28vh auto 0;
-}
-
-.box-video p {
-    font-size: 25px;
 }
 
 .box-video a {
@@ -242,6 +234,7 @@ body {
 
 .bx {
     font-size: 45px;
+    padding: auto;
     color: rgb(168, 252, 168);
     cursor: pointer;
 }
@@ -250,7 +243,7 @@ body {
     display: none;
 }
 
-.perguntas-box p{
+.perguntas-box h2{
     font-size: 23px;
 }
 
@@ -308,10 +301,6 @@ body {
     position: relative;
     border: 2px solid white;
     z-index: 12;
-}
-
-.integrante p {
-    font-size: 25px;
 }
 
 .gab {
@@ -487,7 +476,7 @@ body {
 
 #botaodevoltar i {
     font-size: 70px;
-    color: rgb(124, 247, 123); 
+    color: rgb(123, 247, 123); 
     transition: all 1s;
 }
 
