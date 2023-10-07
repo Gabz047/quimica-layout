@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="./estilos/tabela.css">
     <link rel="shortcut icon" href="./imagens/Untitled-4.png" type="image/x-icon">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./backend/tabela.js"></script>
     <title>Tabela Periódica</title>
 </head>
 
-<body>
+<body id="tbl-id">
+    <section id="paracima"></section>
     <header class="cabecalho">
         <div class="logo">
             <a href="index.html">
@@ -767,46 +770,77 @@
         <ul>
             <li>
                 <div class="NM-cores"></div>
-                Não metais
+                <p>Não metais</p>
             </li>
             <li>
                 <div class="GS-cores"></div>
-                Gases nobres
+                <p>Gases nobres</p>
             </li>
             <li>
                 <div class="MA-cores"></div>
-                Metais alcalinos
+                <p>Metais alcalinos</p>
             </li>
             <li>
                 <div class="MAT-cores"></div>
-                Metais alcalino-terrosos
+                <p>Metais alcalino-terrosos</p>
             </li>
             <li>
                 <div class="SM-cores"></div>
-                Semimetais
+                <p>Semimetais</p>
             </li>
             <li>
                 <div class="HL-cores"></div>
-                Halogênios
+                <p>Halogênios</p>
             </li>
             <li>
                 <div class="OM-cores"></div>
-                Outros metais
+                <p>Outros metais</p>
             </li>
             <li>
                 <div class="MT-cores"></div>
-                Metais de transição
+                <p>Metais de transição</p>
             </li>
             <li>
                 <div class="LT-cores"></div>
-                Latanídeos
+                <p>Latanídeos</p>
             </li>
             <li>
                 <div class="AC-cores"></div>
-                Actinídeos
+                <p>Actinídeos</p>
             </li>
         </ul>
     </div>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+        <ul>
+            <li class="setacontainer">
+                <a href="#">Contato</a>
+            </li>
+            <li>
+                <a href="#">Sobre</a>
+            </li>
+            <li>
+                <a href="#">Termos</a>
+            </li>
+            <li>
+                <a href="#">Suporte</a>
+            </li>
+            <li>
+                <a href="#">Produtos</a>
+            </li>
+        </ul>
+        <div class="btnVoltar">
+            <a href="#paracima" id="botaodevoltar"><i class='bx bx-up-arrow-alt'></i></a>
+        </div> 
+        <p class="copyright">
+            Todos os direitos reservados. INTable © 2023
+        </p>
+    </footer>
 </body>
 
 </html>
