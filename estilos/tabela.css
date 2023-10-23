@@ -93,6 +93,11 @@ a {
 
 }
 
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
 /*Dropdown menu */
 .menu ul ul {
     display: none;
@@ -133,16 +138,19 @@ a {
     font-size: 1.5vh;
     position: relative;
     left: 0;
+    font-weight: 500;
 }
 
 .nomeElmnt {
     text-align: center;
     font-size: 2.7vh;
+    font-weight: 600;
 }
 
 .massaAtm {
     text-align: center;
     font-size: 1.4vh;
+    font-weight: 500;
 }
 /*preset*/
 
@@ -155,7 +163,7 @@ a {
    align-items: center;
 }
 
-.nome-box h1{
+.nome-box h2 {
     color: var(--branco);
     margin-left: 10px;
     font-size: 2.8vh;
@@ -189,12 +197,12 @@ a {
     font-size: 1.5vh;
 }
 
-#C1 {
+.C1 {
     width: 35%;
     padding: 2px;
 }
 
-#C2 {
+.C2 {
     width: 100%;
     padding: 2px;
 }
