@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(191, 190, 190);
-    height: 3040px;
+    /*height: 3040px;*/
     display: flex;
     flex-direction:column;
 }
@@ -61,6 +61,11 @@ main {
     font-family: 'Arial', 'san-serif';
     font-size: 12pt;
     padding: 20px;
+    position: relative;
+}
+
+.folha {
+    position: relative;
 }
 
 .conteudo {
@@ -75,6 +80,7 @@ main {
     width: 21cm;
     margin-bottom: 30px;
     text-align: justify;
+    position: relative;
 }
 
 #referenciash3 {
