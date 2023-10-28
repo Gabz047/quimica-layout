@@ -51,81 +51,18 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#tbl-id {
+    background-image: none;
+}
+
 a {
     text-decoration: none;
     color: aliceblue;
 }
 
-.cabecalho {
-    background-color: #1d1e20;
-    box-shadow: 0px 3px 10px #464646;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-}
-
-.menu ul {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.menu li {
-    margin-left: 10px;
-}
-
-.menu ul li a {
-    display: inline-block;
-    padding: 20px;
-    font-size: 2.3vh;
-}
-
-.menu a:hover {
-    color: #000000;
-    background-color: rgb(202, 243, 140);
-}
-
-.logo {
-    height: 100px;
-    width: 300px;
-
-}
-
-.logo a img {
-    width: 100%;
-    height: 100%;
-}
-
-/*Dropdown menu */
-.menu ul ul {
-    display: none;
-    position: absolute;
-}
-
-.menu ul li:hover ul {
-    display: block;
-    position: absolute;
-}
-
-/*fim DP menu*/
-
-/*Mobile responsive*/
-
-.mobile-menu-icon {
-    display: none;
-}
-
-.mobile-menu {
-    display: none;
-}
-
-
 .background-Table {
    width: 1600px;
    height: 80vh;
-   background-color: rgb(235, 234, 234);
    margin: 8vh auto 0;
    display: flex;
    flex-wrap: wrap;
@@ -177,7 +114,7 @@ a {
 }
 
 .box-propri {
-    width: 60%;
+    width: 70%;
     height: 100%;
 }
 
@@ -208,7 +145,7 @@ a {
 }
 
 .container-descricao {
-    width: 40%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -460,7 +397,7 @@ a {
     grid-column: 2;
     grid-row: 1 /span 7;
     position: relative;
-    top: 14.98571428571429%;
+    top: 14.671428571429%;
 }
 
 .ala2 {
@@ -476,70 +413,70 @@ a {
     grid-column: 1;
     grid-row: 4 /span 6;
     position: relative;
-    top: 6.92%;
+    top: 5.5%;
 }
 
 .grupo4 {
     grid-column: 2;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%;
+   top: 5.5%;
 }
 
 .grupo5 {
     grid-column: 3;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%;
+   top: 5.5%;
 }
 
 .grupo6 {
     grid-column: 4;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%;
+   top: 5.5%;
 }
 
 .grupo7 {
     grid-column: 5;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%;
+   top: 5.5%;
 }
 
 .grupo8 {
     grid-column: 6;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%; 
+   top: 5.5%; 
 }
 
 .grupo9 {
     grid-column: 7;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%;
+   top: 5.5%;
 }
 
 .grupo10 {
     grid-column: 8;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%; 
+   top: 5.5%; 
 }
 
 .grupo11 {
     grid-column: 9;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%;
+   top: 5.5%;
 }
 
 .grupo12 {
     grid-column: 10;
     grid-row: 4 /span 7;
     position: relative;
-    top: 6.92%;
+   top: 5.5%;
 }
 
 .ala3 {
@@ -556,35 +493,35 @@ a {
     grid-column: 1;
     grid-row: 1 /span 7;
     position: relative;
-    top: 14.98571428571429%;
+    top: 14.671428571429%;
 }
 
 .grupo14 {
     grid-column: 2;
     grid-row: 1 /span 7;
     position: relative;
-    top: 14.98571428571429%; 
+    top: 14.671428571429%;
 }
 
 .grupo15 {
     grid-column: 3;
     grid-row: 1 /span 7;
     position: relative;
-    top: 14.98571428571429%;
+    top: 14.671428571429%;
 }
 
 .grupo16 {
     grid-column: 4;
     grid-row: 1 /span 7;
     position: relative;
-    top: 14.98571428571429%;
+    top: 14.671428571429%;
 }
 
 .grupo17 {
     grid-column: 5;
     grid-row: 1 /span 7;
     position: relative;
-    top: 14.98571428571429%;
+    top: 14.671428571429%;
 }
 
 .grupo18 {
@@ -599,7 +536,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    height: 109%;
+    height: 108%;
     width: 100%;
     margin: 0 auto;
 }
@@ -639,7 +576,7 @@ a {
 .latanideos .elemnts {
     height: 76.61%;
     width: 5.951%;
-    margin: 3.9vh 0.12vh;
+    margin: 3.9vh 0.23vh;
 }
 
 .actinideos {
@@ -653,7 +590,7 @@ a {
 .actinideos .elemnts {
     height: 76.61%;
     width: 5.951%;
-    margin: 1.8vh 0.12vh 0vh;
+    margin: 1.8vh 0.23vh 0vh;
 }
 
 .cores-container {
