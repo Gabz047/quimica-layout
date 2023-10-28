@@ -295,7 +295,7 @@ body {
 }
 
 .box-qmsomos p {
-    font-size: 4vh;
+    font-size: calc(12px + 1vw);
     padding: 1.5vh;
     color:  var(--branco);
     font-family: var(--font);
@@ -672,7 +672,6 @@ body {
     .mobile-menu {
         width: 100%;
         z-index: 99999;
-        position: absolute;
         background-color: var(--preto-fosco);
         margin: 26vh auto 0;
     }
