@@ -474,7 +474,7 @@ body {
 }
 
 .footer .copyright {
-    margin-top: 15px;
+    margin-top: 15px auto 0;
     text-align: center;
     font-size: 13px;
     color: var(--branco);
@@ -758,6 +758,13 @@ body {
     #main-perguntas {
         height: 220vh;
     }
+
+    .mobile-menu {
+        width: 100%;
+        z-index: 99999;
+        background-color: var(--preto-fosco);
+        margin: 40vh auto 0;
+    }
 }
 
 @media (max-width: 540px) {
@@ -863,7 +870,7 @@ body {
     }
 
     .pergEresp-caixa {
-        width: 35vh;
+        width: 45vh;
         margin: 0 auto;
     }
 
@@ -900,7 +907,7 @@ body {
 
     .perguntasFreq-section {
         margin: 0 auto;
-        max-width: 40vh;
+        max-width: 50vh;
     }
 
     .logo {
@@ -925,7 +932,7 @@ body {
         z-index: 99999;
         position: absolute;
         background-color: var(--preto-fosco);
-        margin: 20vh auto 0;
+        margin: 23vh auto 0;
     }
 }
 
@@ -975,6 +982,16 @@ body {
 
     .logo {
         width: 20vw;
+    }
+}
+
+@media (width: 375px) and (height: 667px) {
+    .mobile-menu {
+        width: 100%;
+        z-index: 99999;
+        position: absolute;
+        background-color: var(--preto-fosco);
+        margin: 32vh auto 0;
     }
 }
 

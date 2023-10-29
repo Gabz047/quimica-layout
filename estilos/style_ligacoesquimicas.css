@@ -238,11 +238,10 @@ p#nomes {
     text-align: center;
     align-items:end;
     justify-content: center;
-    margin-left: 180vh;
 }
 
 #botaodevoltar i {
-    font-size: 70px;
+    font-size: 50px;
     color: rgb(123, 247, 123); 
     transition: all 1s;
 }
@@ -251,3 +250,54 @@ p#nomes {
     color: rgb(212, 255, 212);
     cursor: pointer;
 }
+
+@media (max-width: 810px) {
+    .conteudo {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .conteudo {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .conteudo {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 2cm;
+        padding-bottom: 1cm;
+        padding-left: 1cm;
+        padding-right: 1cm;
+    }
+
+    .folha {
+        position: relative;
+        width: 100%;
+    }
+
+    .citacao1 {
+        margin-left: 3cm;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .citacao1 {
+        margin-left: 2cm;
+    }
+}
+
+
+@media (max-width: 280px) {
+    .citacao1 {
+        margin-left: 1cm;
+    }
+}
+
+
