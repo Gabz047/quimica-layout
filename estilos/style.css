@@ -2,7 +2,9 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
-
+/*========================================
+FORMATACAO GERAL
+========================================*/
 :root {
     --preto-fosco: #1d1e20;
     --preto-forte: #000000;
@@ -30,6 +32,13 @@ p {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+
+
+
 
 html, body {
     scroll-behavior: smooth;
@@ -991,7 +1000,7 @@ body {
         z-index: 99999;
         position: absolute;
         background-color: var(--preto-fosco);
-        margin: 32vh auto 0;
+        margin: 31vh auto 0;
     }
 }
 
