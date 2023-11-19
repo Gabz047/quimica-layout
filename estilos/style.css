@@ -416,6 +416,10 @@ body {
     opacity: 1;
 }
 
+.socialmedialist {
+    display: flex;
+    text-align: center;
+}
 .footer {
     padding: 40px 0;
     background-color: var(--preto-fosco);
@@ -427,6 +431,8 @@ body {
     text-align: center;
     padding: 25px;
     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
 }
 
 .footer .social a {
